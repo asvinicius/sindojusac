@@ -1,37 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
 
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="description" content="Sindojus-AC" />
-        <meta name="author" content="Vinicius Anjos Santos" />
-
-        <!-- css -->
-        <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,400italic,700|Open+Sans:300,400,600,700" rel="stylesheet">
-        <link href="<?= base_url('assets/css/bootstrap.css'); ?>" rel="stylesheet" />
-        <link href="<?= base_url('assets/css/bootstrap-responsive.css'); ?>" rel="stylesheet" />
-        <link href="<?= base_url('assets/css/fancybox/jquery.fancybox.css'); ?>" rel="stylesheet">
-        <link href="<?= base_url('assets/css/jcarousel.css'); ?>" rel="stylesheet" />
-        <link href="<?= base_url('assets/css/flexslider.css'); ?>" rel="stylesheet" />
-        <link href="<?= base_url('assets/css/style.css'); ?>" rel="stylesheet" />
-        <link href="<?= base_url('assets/skins/default.css'); ?>" rel="stylesheet" />
-        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png" />
-        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png" />
-        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png" />
-        <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png" />
-        <link rel="shortcut icon" href="assets/img/favicon.png" />
-
-        <!-- =======================================================
-          Nome do tema: Flattern
-          URL do tema: https://bootstrapmade.com/flattern-multipurpose-bootstrap-template/
-          Autor: BootstrapMade.com
-          URL do autor: https://bootstrapmade.com
-          Adaptado por: Vinícius Anjos Santos
-        ======================================================= -->
-    </head>
-
-    <body>
             <section id="featured">
                 <div id="nivo-slider">
                     <div class="nivo-slider">
@@ -344,26 +311,3 @@
                     </div>
                 </div>
             </section>
-        <!-- javascript
-          ================================================== -->
-        <!-- Placed at the end of the document so the pages load faster -->
-
-        <script src="<?= base_url('assets/js/jquery.js'); ?>"></script>
-        <script src="<?= base_url('assets/js/jquery.easing.1.3.js'); ?>"></script>
-        <script src="<?= base_url('assets/js/bootstrap.js'); ?>"></script>
-        <script src="<?= base_url('assets/js/jcarousel/jquery.jcarousel.min.js'); ?>"></script>
-        <script src="<?= base_url('assets/js/jquery.fancybox.pack.js'); ?>"></script>
-        <script src="<?= base_url('assets/js/jquery.fancybox-media.js'); ?>"></script>
-        <script src="<?= base_url('assets/js/google-code-prettify/prettify.js'); ?>"></script>
-        <script src="<?= base_url('assets/js/portfolio/jquery.quicksand.js'); ?>"></script>
-        <script src="<?= base_url('assets/js/portfolio/setting.js'); ?>"></script>
-        <script src="<?= base_url('assets/js/jquery.flexslider.js'); ?>"></script>
-        <script src="<?= base_url('assets/js/jquery.nivo.slider.js'); ?>"></script>
-        <script src="<?= base_url('assets/js/modernizr.custom.js'); ?>"></script>
-        <script src="<?= base_url('assets/js/jquery.ba-cond.min.js'); ?>"></script>
-        <script src="<?= base_url('assets/js/jquery.slitslider.js'); ?>"></script>
-        <script src="<?= base_url('assets/js/animate.js'); ?>"></script>
-        <script src="<?= base_url('assets/js/custom.js'); ?>"></script>
-
-    </body>
-</html>

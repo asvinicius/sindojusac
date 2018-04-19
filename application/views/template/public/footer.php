@@ -1,36 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
 
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-
-        <!-- css -->
-        <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,400italic,700|Open+Sans:300,400,600,700" rel="stylesheet">
-        <link href="<?= base_url('assets/css/bootstrap.css'); ?>" rel="stylesheet" />
-        <link href="<?= base_url('assets/css/bootstrap-responsive.css'); ?>" rel="stylesheet" />
-        <link href="<?= base_url('assets/css/fancybox/jquery.fancybox.css'); ?>" rel="stylesheet">
-        <link href="<?= base_url('assets/css/jcarousel.css'); ?>" rel="stylesheet" />
-        <link href="<?= base_url('assets/css/flexslider.css'); ?>" rel="stylesheet" />
-        <link href="<?= base_url('assets/css/style.css'); ?>" rel="stylesheet" />
-        <link href="<?= base_url('assets/skins/default.css'); ?>" rel="stylesheet" />
-        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png" />
-        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png" />
-        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png" />
-        <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png" />
-        <link rel="shortcut icon" href="assets/img/favicon.png" />
-
-        <!-- =======================================================
-          Theme Name: Flattern
-          Theme URL: https://bootstrapmade.com/flattern-multipurpose-bootstrap-template/
-          Author: BootstrapMade.com
-          Author URL: https://bootstrapmade.com
-        ======================================================= -->
-    </head>
-
-    <body>
             <section id="bottom">
                 <div class="container">
                     <div class="row">
@@ -50,49 +18,34 @@
                     <div class="row">
                         <div class="span3">
                             <div class="widget">
-                                <h5 class="widgetheading">Browse pages</h5>
+                                <h5 class="widgetheading">Páginas relacionadas</h5>
                                 <ul class="link-list">
-                                    <li><a href="#">About our company</a></li>
-                                    <li><a href="#">Our services</a></li>
-                                    <li><a href="#">Meet our team</a></li>
-                                    <li><a href="#">Explore our portfolio</a></li>
-                                    <li><a href="#">Get in touch with us</a></li>
+                                    <li><a href="#">Tribunal de Justiça do Acre</a></li>
+                                    <li><a href="#">FOJEBRA</a></li>
                                 </ul>
                             </div>
                         </div>
                         <div class="span3">
                             <div class="widget">
-                                <h5 class="widgetheading">Important stuff</h5>
+                                <h5 class="widgetheading">Informações</h5>
                                 <ul class="link-list">
-                                    <li><a href="#">Press release</a></li>
-                                    <li><a href="#">Terms and conditions</a></li>
-                                    <li><a href="#">Privacy policy</a></li>
-                                    <li><a href="#">Career center</a></li>
-                                    <li><a href="#">Flattern forum</a></li>
+                                    <li><a href="#">Legislação</a></li>
+                                    <li><a href="#">Notícias relacionadas</a></li>
                                 </ul>
                             </div>
                         </div>
-                        <div class="span3">
+                        <div class="span6">
                             <div class="widget">
-                                <h5 class="widgetheading">Flickr photostream</h5>
-                                <div class="flickr_badge">
-                                    <script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=8&amp;display=random&amp;size=s&amp;layout=x&amp;source=user&amp;user=34178660@N03"></script>
-                                </div>
-                                <div class="clear">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="span3">
-                            <div class="widget">
-                                <h5 class="widgetheading">Get in touch with us</h5>
+                                <h5 class="widgetheading">Endereço</h5>
                                 <address>
-                                    <strong>Flattern studio, Pte Ltd</strong><br>
-                                    Springville center X264, Park Ave S.01<br>
-                                    Semarang 16425 Indonesia
+                                    <strong>SINDOJUS</strong><br>
+                                    Rua Paulo Lemos de Moura Leite, nº 878. Portal da Amazônia<br>
+                                    Rio Branco, AC CEP: 69915-777<br>
                                 </address>
                                 <p>
-                                    <i class="icon-phone"></i> (123) 456-7890 - (123) 555-7891 <br>
-                                    <i class="icon-envelope-alt"></i> email@domainname.com
+                                    CNPJ: 29.882.385/0001-03 <br>
+                                    <i class="icon-phone"></i> (068) 0000-0000 <br>
+                                    <i class="icon-envelope-alt"></i> sindojusac@gmail.com
                                 </p>
                             </div>
                         </div>
@@ -104,7 +57,7 @@
                             <div class="span6">
                                 <div class="copyright">
                                     <p>
-                                        <span>&copy; Flattern - All right reserved.</span>
+                                        <span>&copy; SINDOJUS-AC - Todos os direitos reservados.</span>
                                     </p>
                                     <div class="credits">
                                         <!--
@@ -113,7 +66,7 @@
                                           Licensing information: https://bootstrapmade.com/license/
                                           Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Flattern
                                         -->
-                                        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                                        Desenvolvido por SINDOJUS-AC |  Tema por <a href="https://bootstrapmade.com/">BootstrapMade</a>
                                     </div>
                                 </div>
                             </div>
