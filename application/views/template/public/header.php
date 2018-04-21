@@ -38,6 +38,9 @@
                     <div class="row nomargin">
                         <div class="span12">
                             <div class="headnav">
+                                <ul>
+                                    <li><a href="#"><i class="icon-user"></i> Administrador</a></li>
+                                </ul>
                             </div>
                             <!-- Signup Modal -->
                             <div id="mySignup" class="modal styled hide fade" tabindex="-1" role="dialog" aria-labelledby="mySignupModalLabel" aria-hidden="true">
