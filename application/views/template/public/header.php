@@ -166,6 +166,7 @@
                                                     <li><a href="#">Notícias</a></li>
                                                     <li><a href="#">Plantões</a></li>
                                                     <li><a href="#">Assembléias</a></li>
+                                                    <li><a href="#">Transparência</a></li>
                                                 </ul>
                                             </li>
                                             <li class="dropdown">

@@ -12,11 +12,12 @@
                     <!-- Slide #1 caption -->
                     <div class="nivo-caption" id="caption-1">
                         <div>
-                            <h2>Awesome <strong>features</strong></h2>
+                            <h2>Fundaçao do <strong>SINDOJUS-AC</strong></h2>
                             <p>
-                                Lorem ipsum dolor sit amet nsectetuer nec Vivamus. Curabitu laoreet amet eget. Viurab oremd ellentesque ameteget. Lorem ipsum dolor sit amet nsectetuer nec vivamus.
+                                Em 8 de dezembro de 2017, reunidos em Assembleia Geral, os oficiais de Justiça do Acre fundaram o Sindojus-AC (Sindicato dos Oficiais de Justiça do Acre). O objetivo é a representação sindical específica da categoria dos Oficiais de Justiça no Estado do Acre.
+A Assembleia também elegeu a diretoria e o conselho fiscal da primeira gestão da organização. O primeiro presidente eleito é o oficial de Justiça James Cley Nascimento Borges e para vice foi eleito o oficial de Justiça Cleido Rodrigues da Silva e Silva.
                             </p>
-                            <a href="#" class="btn btn-theme">Read More</a>
+                            <a href="#" class="btn btn-theme">Leia mais</a>
                         </div>
                     </div>
                     <!-- Slide #2 caption -->
@@ -54,7 +55,7 @@
                         <h3>Somente com você podemos atingir <span class="highlight"><strong>100%</strong></span> de adesão!</h3>
                     </div>
                     <div class="cta floatright">
-                        <a class="btn btn-large btn-theme btn-rounded" href="#mySignup" data-toggle="modal">Filie-se</a>
+                        <a class="btn btn-large btn-theme btn-large" href="#mySignup" data-toggle="modal">Filie-se</a>
                     </div>
                 </div>
             </div>
@@ -69,56 +70,56 @@
                     <div class="span3">
                         <div class="box aligncenter">
                             <div class="aligncenter icon">
-                                <i class="icon-briefcase icon-circled icon-64 active"></i>
+                                <i class="icon-envelope icon-circled icon-64 active"></i>
                             </div>
                             <div class="text">
-                                <h6>Corporate business</h6>
+                                <h6>Modelos</h6>
                                 <p>
-                                    Lorem ipsum dolor sit amet, has ei ipsum scaevola deseruisse am sea facilisis.
+                                    Modelos de documentos necessários para os Oficiais de Justiça disponíveis para filiados.
                                 </p>
-                                <a href="#">Learn more</a>
+                                <a href="#">Saiba mais</a>
                             </div>
                         </div>
                     </div>
                     <div class="span3">
                         <div class="box aligncenter">
                             <div class="aligncenter icon">
-                                <i class="icon-desktop icon-circled icon-64 active"></i>
+                                <i class="icon-eye-open icon-circled icon-64 active"></i>
                             </div>
                             <div class="text">
-                                <h6>Responsive theme</h6>
+                                <h6>Transparência</h6>
                                 <p>
-                                    Lorem ipsum dolor sit amet, has ei ipsum scaevola deseruisse am sea facilisis.
+                                    Saiba de todas as ações tomadas pelo SINDOJUS-AC de forma detalhadas na seção de transparência.
                                 </p>
-                                <a href="#">Learn more</a>
+                                <a href="#">Saiba mais</a>
                             </div>
                         </div>
                     </div>
                     <div class="span3">
                         <div class="box aligncenter">
                             <div class="aligncenter icon">
-                                <i class="icon-beaker icon-circled icon-64 active"></i>
+                                <i class="icon-info-sign icon-circled icon-64 active"></i>
                             </div>
                             <div class="text">
-                                <h6>Coded carefully</h6>
+                                <h6>Informações</h6>
                                 <p>
-                                    Lorem ipsum dolor sit amet, has ei ipsum scaevola deseruisse am sea facilisis.
+                                    Tenha informações e notícias do universo dos Oficiais de Justiça.
                                 </p>
-                                <a href="#">Learn more</a>
+                                <a href="#">Saiba mais</a>
                             </div>
                         </div>
                     </div>
                     <div class="span3">
                         <div class="box aligncenter">
                             <div class="aligncenter icon">
-                                <i class="icon-coffee icon-circled icon-64 active"></i>
+                                <i class="icon-comment icon-circled icon-64 active"></i>
                             </div>
                             <div class="text">
-                                <h6>Sit and enjoy</h6>
+                                <h6>Comunicação</h6>
                                 <p>
-                                    Lorem ipsum dolor sit amet, has ei ipsum scaevola deseruisse am sea facilisis.
+                                    Uma forma mais rápida e cômoda de ter contato com o SINDOJUS-AC.
                                 </p>
-                                <a href="#">Learn more</a>
+                                <a href="#">Saiba mais</a>
                             </div>
                         </div>
                     </div>
@@ -161,73 +162,6 @@
                                 <!-- Thumb Image and Description -->
                                 <img src="assets/img/tjacbrasao.png" alt="O Tribunal de Justiça do Acre é o responsável por dar suporte ao trabalho dos Oficiais de Justiça. Tem como missão, garantir os direitos do jurisdicionado no Estado do Acre, com justiça, agilidade e ética, promovendo o bem de toda a sociedade.">
                             </li>
-                            <!-- End Item Project -->
-                            <!-- Item Project and Filter Name -->
-                            <li class="item-thumbs span3 photography" data-id="id-2" data-type="illustrator">
-                                <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Mountains" href="img/works/full/image-03-full.jpg">
-                                    <span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="img/works/thumbs/image-03.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
-                            </li>
-                            <!-- End Item Project -->
-                            <!-- Item Project and Filter Name -->
-                            <li class="item-thumbs span3 photography" data-id="id-2" data-type="illustrator">
-                                <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Mountains" href="img/works/full/image-04-full.jpg">
-                                    <span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="img/works/thumbs/image-04.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
-                            </li>
-                            <!-- End Item Project -->
-                            <!-- Item Project and Filter Name -->
-                            <li class="item-thumbs span3 photography" data-id="id-4" data-type="web">
-                                <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Sea" href="img/works/full/image-05-full.jpg">
-                                    <span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="img/works/thumbs/image-05.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
-                            </li>
-                            <!-- End Item Project -->
-                            <!-- Item Project and Filter Name -->
-                            <li class="item-thumbs span3 photography" data-id="id-5" data-type="icon">
-                                <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Clouds" href="img/works/full/image-06-full.jpg">
-                                    <span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="img/works/thumbs/image-06.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
-                            </li>
-                            <!-- End Item Project -->
-                            <!-- Item Project and Filter Name -->
-                            <li class="item-thumbs span3 photography" data-id="id-2" data-type="illustrator">
-                                <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Mountains" href="img/works/full/image-07-full.jpg">
-                                    <span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="img/works/thumbs/image-07.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
-                            </li>
-                            <!-- End Item Project -->
-                            <!-- Item Project and Filter Name -->
-                            <li class="item-thumbs span3 design" data-id="id-0" data-type="web">
-                                <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Dark" href="img/works/full/image-08-full.jpg">
-                                    <span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="img/works/thumbs/image-08.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
-                            </li>
-                            <!-- End Item Project -->
                         </ul>
                     </section>
                 </div>
