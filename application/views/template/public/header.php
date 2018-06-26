@@ -14,6 +14,7 @@
         <link href="<?= base_url('assets/css/bootstrap-responsive.css'); ?>" rel="stylesheet" />
         <link href="<?= base_url('assets/css/fancybox/jquery.fancybox.css'); ?>" rel="stylesheet">
         <link href="<?= base_url('assets/css/jcarousel.css'); ?>" rel="stylesheet" />
+        <link href="<?= base_url('assets/css/animate.css'); ?>" rel="stylesheet" />
         <link href="<?= base_url('assets/css/flexslider.css'); ?>" rel="stylesheet" />
         <link href="<?= base_url('assets/css/style.css'); ?>" rel="stylesheet" />
         <link href="<?= base_url('assets/skins/default.css'); ?>" rel="stylesheet" />
@@ -106,6 +107,9 @@
                                                 <p class="margintop20">
                                                     <a href="#myReset" data-dismiss="modal" aria-hidden="true" data-toggle="modal">Esqueci minha senha</a>
                                                 </p>
+                                                <p class="margintop20">
+                                                    Não é filiado? <a href="#mySignup" data-dismiss="modal" aria-hidden="true" data-toggle="modal">Filie-se</a>
+                                                </p>
                                             </div>
                                         </div>
                                     </form>
@@ -146,6 +150,7 @@
                                 <a href="<?= base_url(); ?>"><img src="<?= base_url('assets/img/logo.png'); ?>" alt="" class="logo" /></a>
                             </div>
                         </div>
+                        
                         <div class="span8">
                             <div class="navbar navbar-static-top">
                                 <div class="navigation">
@@ -154,7 +159,7 @@
                                             <li class="dropdown active">
                                                 <a href="<?= base_url(); ?>">Sindojus <i class="icon-angle-down"></i></a>
                                                 <ul class="dropdown-menu">
-                                                    <li><a href="#">História</a></li>
+                                                    <li><a href="<?= base_url('history'); ?>">História</a></li>
                                                     <li><a href="#">Diretoria</a></li>
                                                     <li><a href="#">Estatuto</a></li>
                                                     <li><a href="#">Atas</a></li>

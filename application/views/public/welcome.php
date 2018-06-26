@@ -1,4 +1,3 @@
-
 <section id="featured">
     <div id="nivo-slider">
         <div class="nivo-slider">
