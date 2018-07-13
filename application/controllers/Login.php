@@ -27,16 +27,26 @@ class Login extends CI_Controller {
                 redirect(base_url());
             } else {
                 $loginfail = array(
-                    "class" => "danger",
-                    "message" => "Sinto muito!<br />Você não pode acessar o sistema neste momento.");
+                    "class" => "alert alert-error",
+                    "message" => "Sinto muito!<br />Você não pode acessar o sistema neste momento.",
+                    "role" => 1);
                 $msg = array("loginfail" => $loginfail);
+            
+            $this->load->view('template/public/header');
+            $this->load->view('public/loginfailadm', $msg);
+            $this->load->view('template/public/footer');
             }
         } else {
             $loginfail = array(
-                "class" => "danger",
-                "message" => "Usuário ou senha incorretos");
+                "class" => "alert alert-error",
+                "message" => "Usuário ou senha incorretos!",
+                "role" => 1);
             
             $msg = array("loginfail" => $loginfail);
+            
+            $this->load->view('template/public/header');
+            $this->load->view('public/loginfailadm', $msg);
+            $this->load->view('template/public/footer');
         }
     }
 
@@ -45,9 +55,8 @@ class Login extends CI_Controller {
     }
 
     public function signout() {
-        
+        $this->session->sess_destroy();
+        redirect(base_url());
     }
-
 }
-
 ?>
