@@ -21,6 +21,7 @@ class Login extends CI_Controller {
                     'phone' => $user["phone"],
                     'name' => $user["name"],
                     'role' => $user["role"],
+                    'sector' => 1,
                     'loggedin' => TRUE
                 );
                 $this->session->set_userdata($session);

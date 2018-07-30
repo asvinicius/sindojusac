@@ -40,7 +40,7 @@
                         <div class="span12">
                             <div class="headnav">
                                 <ul>
-                                    <li><a href="#mySuperin" data-toggle="modal"><i class="icon-user"></i> Sair</a></li>
+                                    <li><a href="#" data-toggle="modal"><i class="icon-user"></i> Sair</a></li>
                                 </ul>
                             </div>
                             <!-- Signup Modal -->

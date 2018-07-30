@@ -97,5 +97,12 @@ class CI_Controller {
                 return true;
             }
         }
+        public function isAdmsec(){
+            if ($this->session->userdata('sector') === 1){
+                if ($this->session->userdata('role') === '1'){
+                    return true;
+                }
+            }
+        }
 
 }

@@ -57,39 +57,17 @@
                                 <div class="navigation">
                                     <nav>
                                         <ul class="nav topnav">
-                                            <li class="dropdown active">
-                                                <a href="<?= base_url(); ?>">Sindojus <i class="icon-angle-down"></i></a>
-                                                <ul class="dropdown-menu">
-                                                    <li><a href="<?= base_url('history'); ?>">História</a></li>
-                                                    <li><a href="#">Diretoria</a></li>
-                                                    <li><a href="#">Estatuto</a></li>
-                                                    <li><a href="#">Atas</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="dropdown">
-                                                <a href="#">Comunicação <i class="icon-angle-down"></i></a>
-                                                <ul class="dropdown-menu">
-                                                    <li><a href="#">Notícias</a></li>
-                                                    <li><a href="#">Plantões</a></li>
-                                                    <li><a href="#">Assembléias</a></li>
-                                                    <li><a href="#">Transparência</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="dropdown">
-                                                <a href="#">Mídia <i class="icon-angle-down"></i></a>
-                                                <ul class="dropdown-menu">
-                                                    <li><a href="#">Convênios</a></li>
-                                                    <li><a href="#">Galeria</a></li>
-                                                </ul>
+                                            <li>
+                                                <a href="#">Páginas </a>
                                             </li>
                                             <li>
-                                                <a href="#">Contato </a>
+                                                <a href="#">Notícias </a>
                                             </li>
                                             <li>
-                                                <a href="#mySignup" data-toggle="modal">Filie-se </a>
+                                                <a href="#">Mídias </a>
                                             </li>
                                             <li>
-                                                <a href="#mySignin" data-toggle="modal">Entrar </a>
+                                                <a href="#">Usuários </a>
                                             </li>
                                         </ul>
                                     </nav>
