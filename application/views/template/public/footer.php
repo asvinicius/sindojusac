@@ -39,8 +39,8 @@
                     <h5 class="widgetheading">Endereço</h5>
                     <address>
                         <strong>SINDOJUS</strong><br>
-                        Rua Paulo Lemos de Moura Leite, nº 878. Portal da Amazônia<br>
-                        Rio Branco, AC CEP: 69915-777<br>
+                        Travessa Taveira, nº 63. Manoel Julião - Rio Branco, AC<br>
+                        CEP: 69918-144<br>
                     </address>
                     <p>
                         CNPJ: 29.882.385/0001-03 <br>

@@ -45,7 +45,8 @@ ini_set(“display_errors”, 0 );
                         <div class="span12">
                             <div class="headnav">
                                 <ul>
-                                    <li><a href="#mySuperin" data-toggle="modal"><i class="icon-user"></i> Administrador</a></li>
+                                    <!--<li><a href="#mySuperin" data-toggle="modal"><i class="icon-user"></i> Administrador</a></li>-->
+                                    <li><i class="icon-user"></i> Versão 1.0</li>
                                 </ul>
                             </div>
                             <!-- Signup Modal -->
@@ -55,7 +56,8 @@ ini_set(“display_errors”, 0 );
                                     <h4 id="mySignupModalLabel">Filie-se ao <strong>Sindojus-AC</strong></h4>
                                 </div>
                                 <div class="modal-body">
-                                    <form class="form-horizontal">
+                                    Entre em contato no email <strong>sindojusac@gmail.com</strong> para solicitar sua filiação
+<!--                                    <form class="form-horizontal">
                                         <div class="control-group">
                                             <label class="control-label" for="inputText">Nome</label>
                                             <div class="controls">
@@ -82,7 +84,7 @@ ini_set(“display_errors”, 0 );
                                                 </p>
                                             </div>
                                         </div>
-                                    </form>
+                                    </form>-->
                                 </div>
                             </div>
                             <!-- end signup modal -->
@@ -93,7 +95,8 @@ ini_set(“display_errors”, 0 );
                                     <h4 id="mySigninModalLabel">Entre na sua <strong>conta</strong></h4>
                                 </div>
                                 <div class="modal-body">
-                                    <form class="form-horizontal">
+                                    Serviço ainda indisponivel!
+<!--                                    <form class="form-horizontal">
                                         <div class="control-group">
                                             <label class="control-label" for="inputText">Usuário</label>
                                             <div class="controls">
@@ -117,7 +120,7 @@ ini_set(“display_errors”, 0 );
                                                 </p>
                                             </div>
                                         </div>
-                                    </form>
+                                    </form>-->
                                 </div>
                             </div>
                             <!-- end signin modal -->
@@ -204,14 +207,16 @@ ini_set(“display_errors”, 0 );
                                                     <li><a href="#">Notícias</a></li>
                                                     <li><a href="#">Plantões</a></li>
                                                     <li><a href="#">Assembléias</a></li>
+                                                    <li><a href="#">Legislação</a></li>
+                                                    <li><a href="#">Convênios</a></li>
                                                     <li><a href="#">Transparência</a></li>
                                                 </ul>
                                             </li>
                                             <li class="dropdown">
                                                 <a href="#">Mídia <i class="icon-angle-down"></i></a>
                                                 <ul class="dropdown-menu">
-                                                    <li><a href="#">Convênios</a></li>
                                                     <li><a href="#">Galeria</a></li>
+                                                    <li><a href="#">Modelos</a></li>
                                                 </ul>
                                             </li>
                                             <li>
