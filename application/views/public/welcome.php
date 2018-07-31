@@ -13,8 +13,16 @@
                         <div>
                             <h2>Fundaçao do <strong>SINDOJUS-AC</strong></h2>
                             <p>
-                                Em 8 de dezembro de 2017, reunidos em Assembleia Geral, os oficiais de Justiça do Acre fundaram o Sindojus-AC (Sindicato dos Oficiais de Justiça do Acre). O objetivo é a representação sindical específica da categoria dos Oficiais de Justiça no Estado do Acre.
-A Assembleia também elegeu a diretoria e o conselho fiscal da primeira gestão da organização. O primeiro presidente eleito é o oficial de Justiça James Cley Nascimento Borges e para vice foi eleito o oficial de Justiça Cleido Rodrigues da Silva e Silva.
+                                Em 8 de dezembro de 2017, reunidos em Assembleia Geral, 
+                                os oficiais de Justiça do Acre fundaram o Sindojus-AC 
+                                (Sindicato dos Oficiais de Justiça do Acre). O objetivo 
+                                é a representação sindical específica da categoria dos 
+                                Oficiais de Justiça no Estado do Acre.
+                                A Assembleia também elegeu a diretoria e o conselho fiscal 
+                                da primeira gestão da organização. O primeiro presidente 
+                                eleito é o oficial de Justiça James Cley Nascimento Borges 
+                                e para vice foi eleito o oficial de Justiça Cleido Rodrigues 
+                                da Silva e Silva.
                             </p>
                             <a href="#" class="btn btn-theme">Leia mais</a>
                         </div>
@@ -22,9 +30,15 @@ A Assembleia também elegeu a diretoria e o conselho fiscal da primeira gestão 
                     <!-- Slide #2 caption -->
                     <div class="nivo-caption" id="caption-2">
                         <div>
-                            <h2>Fully <strong>responsive</strong></h2>
+                            <h2><strong>SINDOJUS-AC</strong> presente na visita da FOJEBRA à PF</h2>
                             <p>
-                                Lorem ipsum dolor sit amet nsectetuer nec Vivamus. Curabitu laoreet amet eget. Viurab oremd ellentesque ameteget. Lorem ipsum dolor sit amet nsectetuer nec vivamus.
+                                Representantes do SINDOJUS-AC estiveram juntos com dirigentes da FOJEBRA 
+                                em reunião com a Dra. Silvana Borges, Diretora Executiva do DIREX, órgão 
+                                auxiliar da Polícia Federal, e com o Dr. Tony Gean de Castro, Chefe da 
+                                Divisão Nacional de Armas (DARM). <br />
+                                O presidente da FOJEBRA, Edvaldo Lima, abriu a reunião apresentando a 
+                                Federação, seus estados componentes, e fazendo um breve histórico do 
+                                tema “Porte de Arma para os Oficiais de Justiça”.
                             </p>
                             <a href="#" class="btn btn-theme">Read More</a>
                         </div>
@@ -32,9 +46,13 @@ A Assembleia também elegeu a diretoria e o conselho fiscal da primeira gestão 
                     <!-- Slide #3 caption -->
                     <div class="nivo-caption" id="caption-3">
                         <div>
-                            <h2>Very <strong>customizable</strong></h2>
+                            <h2><strong>SINDOJUS-AC</strong> presente em assembléia da FOJEBRA em Brasília</h2>
                             <p>
-                                Lorem ipsum dolor sit amet nsectetuer nec Vivamus. Curabitu laoreet amet eget. Viurab oremd ellentesque ameteget. Lorem ipsum dolor sit amet nsectetuer nec vivamus.
+                                Diretores das entidades sindicais de norte a sul do país, estiveram reunidos 
+                                na sede da Fojebra em Brasília, para realização da assembleia extraordinária 
+                                convocada para data do dia 09 de julho. Diversos pontos foram deliberados, 
+                                inclusive medidas eficácias contra entidades sindicais que tentar inibir o 
+                                trabalho realizado pela Fojebra, inclusive por questões políticas.
                             </p>
                             <a href="#" class="btn btn-theme">Read More</a>
                         </div>
