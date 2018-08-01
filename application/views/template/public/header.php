@@ -197,30 +197,30 @@ ini_set(“display_errors”, 0 );
                                                 <ul class="dropdown-menu">
                                                     <li><a href="<?= base_url('history'); ?>">História</a></li>
                                                     <li><a href="<?= base_url('direction'); ?>">Diretoria</a></li>
-                                                    <li><a href="#">Estatuto</a></li>
-                                                    <li><a href="#">Atas</a></li>
+                                                    <li><a href="<?= base_url('statute'); ?>">Estatuto</a></li>
+                                                    <li><a href="<?= base_url('ata'); ?>">Atas</a></li>
                                                 </ul>
                                             </li>
                                             <li class="dropdown">
-                                                <a href="#">Comunicação <i class="icon-angle-down"></i></a>
+                                                <a href="<?= base_url('news'); ?>">Comunicação <i class="icon-angle-down"></i></a>
                                                 <ul class="dropdown-menu">
-                                                    <li><a href="#">Notícias</a></li>
-                                                    <li><a href="#">Plantões</a></li>
-                                                    <li><a href="#">Assembléias</a></li>
-                                                    <li><a href="#">Legislação</a></li>
-                                                    <li><a href="#">Convênios</a></li>
+                                                    <li><a href="<?= base_url('news'); ?>">Notícias</a></li>
+                                                    <li><a href="<?= base_url('shifts'); ?>">Plantões</a></li>
+                                                    <li><a href="<?= base_url('assembly'); ?>">Assembleias</a></li>
+                                                    <li><a href="<?= base_url('legislation'); ?>">Legislação</a></li>
+                                                    <li><a href="<?= base_url('covenant'); ?>">Convênios</a></li>
                                                     <li><a href="#">Transparência</a></li>
                                                 </ul>
                                             </li>
                                             <li class="dropdown">
-                                                <a href="#">Mídia <i class="icon-angle-down"></i></a>
+                                                <a href="<?= base_url('gallery'); ?>">Mídia <i class="icon-angle-down"></i></a>
                                                 <ul class="dropdown-menu">
-                                                    <li><a href="#">Galeria</a></li>
-                                                    <li><a href="#">Modelos</a></li>
+                                                    <li><a href="<?= base_url('gallery'); ?>">Galeria</a></li>
+                                                    <li><a href="<?= base_url('models'); ?>">Modelos</a></li>
                                                 </ul>
                                             </li>
                                             <li>
-                                                <a href="#">Contato </a>
+                                                <a href="<?= base_url('contact'); ?>">Contato </a>
                                             </li>
                                             <li>
                                                 <a href="#mySignup" data-toggle="modal">Filie-se </a>
