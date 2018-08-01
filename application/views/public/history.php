@@ -13,7 +13,7 @@
     <div class="container">
         <div class="row">
             <div class="span12">
-                <h2>Bem vindo ao <strong>SINDOJUS-AC</strong></h2>
+                <h2>O nascimento do <strong>SINDOJUS-AC</strong></h2>
                 <p>
                     Em 8 de dezembro de 2017, reunidos em Assembleia Geral, 
                     os oficiais de Justiça do Acre fundaram o Sindojus-AC 

@@ -40,7 +40,7 @@
                     <address>
                         <strong>SINDOJUS</strong><br>
                         Travessa Taveira, nº 63. Manoel Julião - Rio Branco, AC<br>
-                        CEP: 69918-144<br>
+                        CEP: 69918-444<br>
                     </address>
                     <p>
                         CNPJ: 29.882.385/0001-03 <br>

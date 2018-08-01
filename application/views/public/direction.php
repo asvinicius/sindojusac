@@ -12,24 +12,54 @@
 <section id="content">
     <div class="container">
         <div class="row">
-            <div class="span12">
-                <h2>Bem vindo ao <strong>SINDOJUS-AC</strong></h2>
-                <p>
-                    Em 8 de dezembro de 2017, reunidos em Assembleia Geral, 
-                    os oficiais de Justiça do Acre fundaram o Sindojus-AC 
-                    (Sindicato dos Oficiais de Justiça do Acre). 
-                </p>
-                <p>
-                    O objetivo é a representação sindical específica da categoria dos 
-                    Oficiais de Justiça no Estado do Acre.
-                </p>
-                <p>
-                    A Assembleia também elegeu a diretoria e o conselho fiscal 
-                    da primeira gestão da organização. O primeiro presidente 
-                    eleito é o oficial de Justiça James Cley Nascimento Borges 
-                    e para vice foi eleito o oficial de Justiça Cleido Rodrigues 
-                    da Silva e Silva.
-                </p>
+            <div class="span6">
+                <h2>Quem faz o <strong>SINDOJUS-AC</strong></h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="span3">
+                <img src="<?= base_url('assets/img/dummies/team1.jpg'); ?>" alt="" class="img-polaroid" />
+                <div class="roles">
+                    <p class="lead">
+                        <strong>James Cley</strong>
+                    </p>
+                    <p>
+                        Presidente
+                    </p>
+                </div>
+            </div>
+            <div class="span3">
+                <img src="<?= base_url('assets/img/dummies/team2.jpg'); ?>" alt="" class="img-polaroid" />
+                <div class="roles">
+                    <p class="lead">
+                        <strong>Cleido</strong>
+                    </p>
+                    <p>
+                        Vice-presidente
+                    </p>
+                </div>
+            </div>
+            <div class="span3">
+                <img src="<?= base_url('assets/img/dummies/team3.jpg'); ?>" alt="" class="img-polaroid" />
+                <div class="roles">
+                    <p class="lead">
+                        <strong>Lenildo</strong>
+                    </p>
+                    <p>
+                        Auxiliar
+                    </p>
+                </div>
+            </div>
+            <div class="span3">
+                <img src="<?= base_url('assets/img/dummies/team4.jpg'); ?>" alt="" class="img-polaroid" />
+                <div class="roles">
+                    <p class="lead">
+                        <strong>Jackson</strong>
+                    </p>
+                    <p>
+                        Auxiliar
+                    </p>
+                </div>
             </div>
         </div>
     </div>

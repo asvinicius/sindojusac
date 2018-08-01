@@ -8,7 +8,6 @@
         <div class="container">
             <div class="row">
                 <div class="span12">
-                    <!-- Slide #1 caption -->
                     <div class="nivo-caption" id="caption-1">
                         <div>
                             <h2>Fundaçao do <strong>SINDOJUS-AC</strong></h2>

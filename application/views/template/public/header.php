@@ -196,7 +196,7 @@ ini_set(“display_errors”, 0 );
                                                 <a href="<?= base_url(); ?>">Sindojus <i class="icon-angle-down"></i></a>
                                                 <ul class="dropdown-menu">
                                                     <li><a href="<?= base_url('history'); ?>">História</a></li>
-                                                    <li><a href="#">Diretoria</a></li>
+                                                    <li><a href="<?= base_url('direction'); ?>">Diretoria</a></li>
                                                     <li><a href="#">Estatuto</a></li>
                                                     <li><a href="#">Atas</a></li>
                                                 </ul>
