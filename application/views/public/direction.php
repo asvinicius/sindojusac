@@ -32,7 +32,7 @@
                 <img src="<?= base_url('assets/img/dummies/team2.jpg'); ?>" alt="" class="img-polaroid" />
                 <div class="roles">
                     <p class="lead">
-                        <strong>Cleido</strong>
+                        <strong>Cleido Rodrigues</strong>
                     </p>
                     <p>
                         Vice-presidente
@@ -43,10 +43,10 @@
                 <img src="<?= base_url('assets/img/dummies/team3.jpg'); ?>" alt="" class="img-polaroid" />
                 <div class="roles">
                     <p class="lead">
-                        <strong>Lenildo</strong>
+                        <strong>Lenildo Bessa</strong>
                     </p>
                     <p>
-                        Auxiliar
+                        Tesoureiro
                     </p>
                 </div>
             </div>
@@ -54,7 +54,7 @@
                 <img src="<?= base_url('assets/img/dummies/team4.jpg'); ?>" alt="" class="img-polaroid" />
                 <div class="roles">
                     <p class="lead">
-                        <strong>Jackson</strong>
+                        <strong>Jackson Maia</strong>
                     </p>
                     <p>
                         Auxiliar
