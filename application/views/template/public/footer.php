@@ -29,7 +29,7 @@
                 <div class="widget">
                     <h5 class="widgetheading">Informações</h5>
                     <ul class="link-list">
-                        <li><a href="#">Legislação</a></li>
+                        <li><a href="<?= base_url('legislation'); ?>">Legislação</a></li>
                         <li><a href="#">Notícias relacionadas</a></li>
                     </ul>
                 </div>

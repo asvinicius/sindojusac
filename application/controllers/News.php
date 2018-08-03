@@ -5,6 +5,7 @@ defined('BASEPATH') OR exit('No direct');
         public function index(){
             $this->load->view('template/public/header');
             $this->load->view('public/news');
+            $this->load->view('template/public/newsmenu');
             $this->load->view('template/public/footer');
         }
     }

@@ -29,10 +29,8 @@
                             </p>
                             <div class="bottom-article">
                                 <ul class="meta-post">
-                                    <li><i class="icon-calendar"></i><a href="#"> Mar 23, 2013</a></li>
-                                    <li><i class="icon-user"></i><a href="#"> Admin</a></li>
-                                    <li><i class="icon-folder-open"></i><a href="#"> Blog</a></li>
-                                    <li><i class="icon-comments"></i><a href="#">4 Comments</a></li>
+                                    <li><i class="icon-calendar"></i>Mar 23, 2013</li>
+                                    <li><i class="icon-comments"></i>4 Comments</li>
                                 </ul>
                                 <a href="#" class="pull-right">Continue reading <i class="icon-angle-right"></i></a>
                             </div>
@@ -96,39 +94,3 @@
                     <a href="#" class="inactive">3</a>
                 </div>
             </div>
-            <div class="span4">
-                <aside class="right-sidebar">
-                    <div class="widget">
-                        <form class="form-search">
-                            <input placeholder="Busque algo..." type="text" class="input-medium search-query">
-                            <button type="submit" class="btn btn-square btn-theme">Buscar</button>
-                        </form>
-                    </div>
-                    <div class="widget">
-                        <h5 class="widgetheading">Notícias importantes</h5>
-                        <ul class="recent">
-                            <li>
-                                <h6><a href="#">Lorem ipsum dolor sit</a></h6>
-                                <p>
-                                    Mazim alienum appellantur eu cu ullum officiis pro pri
-                                </p>
-                            </li>
-                            <li>
-                                <h6><a href="#">Maiorum ponderum eum</a></h6>
-                                <p>
-                                    Mazim alienum appellantur eu cu ullum officiis pro pri
-                                </p>
-                            </li>
-                            <li>
-                                <h6><a href="#">Et mei iusto dolorum</a></h6>
-                                <p>
-                                    Mazim alienum appellantur eu cu ullum officiis pro pri
-                                </p>
-                            </li>
-                        </ul>
-                    </div>
-                </aside>
-            </div>
-        </div>
-    </div>
-</section>
