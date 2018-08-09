@@ -50,6 +50,11 @@ class NewsModel extends CI_Model{
         return $this->db->get("news")->result();
     }
     
+    public function search($newsid) {
+        $this->db->where("newsid", $newsid);
+        return $this->db->get("news")->row_array();
+    }
+    
     function getNewsid() {
         return $this->newsid;
     }

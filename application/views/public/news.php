@@ -13,14 +13,14 @@
     <div class="container">
         <div class="row">
             <div class="span8">
-                <?php if($news){ ?>
-                    <?php foreach ($news as $new){ ?>
+                <?php if ($news) { ?>
+                    <?php foreach ($news as $new) { ?>
                         <article>
                             <div class="row">
                                 <div class="span8">
                                     <div class="post-image">
                                         <div class="post-heading">
-                                            <h3><a href="#"><?php echo $new->title; ?></a></h3>
+                                            <h3><a href="<?= base_url('news/detail/' . $new->newsid); ?>"><?php echo $new->title; ?></a></h3>
                                         </div>
                                         <img src="<?php echo $new->image; ?>" alt="" />
                                     </div>
@@ -32,7 +32,7 @@
                                             <li><i class="icon-calendar"></i><?php echo $new->date; ?></li>
                                             <li><i class="icon-comments"></i>0 Comments</li>
                                         </ul>
-                                        <a href="#" class="pull-right">Continue lendo <i class="icon-angle-right"></i></a>
+                                        <a href="<?= base_url('news/detail/' . $new->newsid); ?>" class="pull-right">Continue lendo <i class="icon-angle-right"></i></a>
                                     </div>
                                 </div>
                             </div>
