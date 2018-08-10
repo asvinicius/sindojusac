@@ -13,28 +13,29 @@
     <div class="container">
         <div class="row">
             <div class="span8">
-                <?php if($news){ ?>
+                <?php if($detail){ ?>
                     <article>
                         <div class="row">
                             <div class="span8">
                                 <div class="post-image">
                                     <div class="post-heading">
-                                        <h3><?php echo $news['title']; ?></h3>
+                                        <h3><?php echo $detail['title']; ?></h3>
                                     </div>
-                                    <img src="<?php echo base_url().$news['image']; ?>" alt="" />
+                                    <img src="<?php echo base_url().$detail['image']; ?>" alt="" />
                                 </div>
                                 <p align="justify">
-                                    <?php echo $news['content']; ?>
+                                    <?php echo $detail['content']; ?>
                                 </p>
                                 <div class="bottom-article">
                                     <ul class="meta-post">
-                                        <li><i class="icon-calendar"></i><?php echo $news['date']; ?></li>
+                                        <li><i class="icon-calendar"></i><?php echo $detail['date']; ?></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                     </article>
                 <?php } ?>
+                <!--
                 <div class="comment-area">
                     <h4>4 Comments</h4>
                     <div class="media">
@@ -90,4 +91,5 @@
                         </div>
                     </form>
                 </div>
+                -->
             </div>

@@ -9,26 +9,18 @@
                     </div>
                     <div class="widget">
                         <h5 class="widgetheading">Notícias importantes</h5>
-                        <ul class="recent">
-                            <li>
-                                <h6><a href="#">Lorem ipsum dolor sit</a></h6>
-                                <p>
-                                    Mazim alienum appellantur eu cu ullum officiis pro pri
-                                </p>
-                            </li>
-                            <li>
-                                <h6><a href="#">Maiorum ponderum eum</a></h6>
-                                <p>
-                                    Mazim alienum appellantur eu cu ullum officiis pro pri
-                                </p>
-                            </li>
-                            <li>
-                                <h6><a href="#">Et mei iusto dolorum</a></h6>
-                                <p>
-                                    Mazim alienum appellantur eu cu ullum officiis pro pri
-                                </p>
-                            </li>
-                        </ul>
+                        <?php if ($news) { ?>
+                            <ul class="recent">
+                                <?php foreach ($news as $new) { ?>
+                                    <li>
+                                        <h6><a href="<?= base_url('news/detail/' . $new->newsid); ?>"><?php echo $new->title; ?></a></h6>
+                                        <p>
+                                            <?php echo $new->abstract; ?>
+                                        </p>
+                                    </li>
+                                <?php } ?>
+                            </ul>
+                        <?php } ?>
                     </div>
                 </aside>
             </div>
