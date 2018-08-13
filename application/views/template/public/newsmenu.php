@@ -9,6 +9,7 @@
                     </div>
                     <div class="widget">
                         <h5 class="widgetheading">Notícias importantes</h5>
+                        <!--
                         <?php if ($news) { ?>
                             <ul class="recent">
                                 <?php foreach ($news as $new) { ?>
@@ -21,6 +22,7 @@
                                 <?php } ?>
                             </ul>
                         <?php } ?>
+                        -->
                     </div>
                 </aside>
             </div>
