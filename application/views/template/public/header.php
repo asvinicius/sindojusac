@@ -11,7 +11,6 @@ ini_set(“display_errors”, 0 );
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>SINDOJUS-AC | Sindicato dos Oficiais de Justiça do Acre</title>
 
         <!-- css -->
         <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,400italic,700|Open+Sans:300,400,600,700" rel="stylesheet">
@@ -205,29 +204,38 @@ ini_set(“display_errors”, 0 );
                                                 <a href="<?= base_url('news'); ?>">Comunicação <i class="icon-angle-down"></i></a>
                                                 <ul class="dropdown-menu">
                                                     <li><a href="<?= base_url('news'); ?>">Notícias</a></li>
+                                                    <!--
                                                     <li><a href="<?= base_url('shifts'); ?>">Plantões</a></li>
                                                     <li><a href="<?= base_url('assembly'); ?>">Assembleias</a></li>
                                                     <li><a href="<?= base_url('legislation'); ?>">Legislação</a></li>
+                                                    -->
+                                                    <li><a href="https://www.tjac.jus.br/tribunal/administrativo/coger/legislacao/" target="_blank">Legislação</a></li>
+                                                    <!--
                                                     <li><a href="<?= base_url('covenant'); ?>">Convênios</a></li>
                                                     <li><a href="#">Transparência</a></li>
+                                                    -->
                                                 </ul>
                                             </li>
                                             <li class="dropdown">
                                                 <a href="<?= base_url('gallery'); ?>">Mídia <i class="icon-angle-down"></i></a>
                                                 <ul class="dropdown-menu">
                                                     <li><a href="<?= base_url('gallery'); ?>">Galeria</a></li>
+                                                    <!--
                                                     <li><a href="<?= base_url('models'); ?>">Modelos</a></li>
+                                                    -->
                                                 </ul>
                                             </li>
                                             <li>
                                                 <a href="<?= base_url('contact'); ?>">Contato </a>
                                             </li>
+                                            <!--
                                             <li>
                                                 <a href="#mySignup" data-toggle="modal">Filie-se </a>
                                             </li>
                                             <li>
                                                 <a href="#mySignin" data-toggle="modal">Entrar </a>
                                             </li>
+                                            -->
                                         </ul>
                                     </nav>
                                 </div>

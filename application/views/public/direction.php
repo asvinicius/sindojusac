@@ -1,3 +1,6 @@
+<head>
+    <title>Diretoria | SINDOJUS-AC</title>
+</head>
 <section id="inner-headline">
     <div class="container">
         <div class="row">
@@ -57,7 +60,7 @@
                         <strong>Jackson Maia</strong>
                     </p>
                     <p>
-                        Auxiliar
+                        Diretor Jurídico
                     </p>
                 </div>
             </div>

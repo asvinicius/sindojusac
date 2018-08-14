@@ -1,3 +1,6 @@
+<head>
+    <title>Estatuto | SINDOJUS-AC</title>
+</head>
 <section id="inner-headline">
     <div class="container">
         <div class="row">

@@ -29,8 +29,11 @@
                 <div class="widget">
                     <h5 class="widgetheading">Informações</h5>
                     <ul class="link-list">
-                        <li><a href="<?= base_url('legislation'); ?>">Legislação</a></li>
+                        <li><a href="https://www.tjac.jus.br/tribunal/administrativo/coger/legislacao/" target="_blank">Legislação</a></li>
+                        <!--
+                        <li><a href="<?= base_url('legislation'); ?>" target="_blank">Legislação</a></li>
                         <li><a href="#">Notícias relacionadas</a></li>
+                        -->
                     </ul>
                 </div>
             </div>
@@ -39,7 +42,7 @@
                     <h5 class="widgetheading">Endereço</h5>
                     <address>
                         <strong>SINDOJUS</strong><br>
-                        Travessa Taveira, nº 63. Manoel Julião - Rio Branco, AC<br>
+                        Rua Taveira, nº 63. Manoel Julião - Rio Branco, AC<br>
                         CEP: 69918-444<br>
                     </address>
                     <p>

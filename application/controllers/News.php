@@ -24,7 +24,17 @@ defined('BASEPATH') OR exit('No direct');
             $msg = array("news" => $data, "detail" => $detail);
             
             $this->load->view('template/public/header');
-            $this->load->view('public/newsdetail', $msg);
+            if($newsid == 1){
+                $this->load->view('public/fundacao', $msg);
+            }
+            if($newsid == 2){
+                $this->load->view('public/fojebrapf', $msg);
+            }
+            if($newsid == 3){
+                $this->load->view('public/assfojebrabsb', $msg);
+            }
+            
+            // $this->load->view('public/newsdetail', $msg);
             $this->load->view('template/public/newsmenu', $msg);
             $this->load->view('template/public/footer');
         }
