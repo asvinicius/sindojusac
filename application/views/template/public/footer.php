@@ -47,7 +47,7 @@
                     </address>
                     <p>
                         CNPJ: 29.882.385/0001-03 <br>
-                        <i class="icon-phone"></i> (068) 0000-0000 <br>
+                        <i class="icon-phone"></i> (068) 2102-1324 <br>
                         <i class="icon-envelope-alt"></i> sindojusac@gmail.com
                     </p>
                 </div>
@@ -74,6 +74,7 @@
                     </div>
                 </div>
                 <div class="span6">
+                    <!--
                     <ul class="social-network">
                         <li><a href="#" data-placement="bottom" title="Facebook"><i class="icon-facebook icon-square"></i></a></li>
                         <li><a href="#" data-placement="bottom" title="Twitter"><i class="icon-twitter icon-square"></i></a></li>
@@ -81,6 +82,7 @@
                         <li><a href="#" data-placement="bottom" title="Pinterest"><i class="icon-pinterest icon-square"></i></a></li>
                         <li><a href="#" data-placement="bottom" title="Google plus"><i class="icon-google-plus icon-square"></i></a></li>
                     </ul>
+                    -->
                 </div>
             </div>
         </div>
