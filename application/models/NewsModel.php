@@ -6,7 +6,9 @@ class NewsModel extends CI_Model{
     protected $title;
     protected $abstract;
     protected $content;
-    protected $image;
+    protected $main;
+    protected $thumb;
+    protected $internal;
     protected $date;
     
     function __construct() {
@@ -16,7 +18,9 @@ class NewsModel extends CI_Model{
         $this->setTitle(null);
         $this->setAbstract(null);
         $this->setContent(null);
-        $this->setImage(null);
+        $this->setMain(null);
+        $this->setThumb(null);
+        $this->setInternal(null);
         $this->setDate(null);
     }
     
@@ -54,7 +58,7 @@ class NewsModel extends CI_Model{
         $this->db->where("newsid", $newsid);
         return $this->db->get("news")->row_array();
     }
-    
+
     function getNewsid() {
         return $this->newsid;
     }
@@ -75,8 +79,16 @@ class NewsModel extends CI_Model{
         return $this->content;
     }
 
-    function getImage() {
-        return $this->image;
+    function getMain() {
+        return $this->main;
+    }
+
+    function getThumb() {
+        return $this->thumb;
+    }
+
+    function getInternal() {
+        return $this->internal;
     }
 
     function getDate() {
@@ -103,8 +115,16 @@ class NewsModel extends CI_Model{
         $this->content = $content;
     }
 
-    function setImage($image) {
-        $this->image = $image;
+    function setMain($main) {
+        $this->main = $main;
+    }
+
+    function setThumb($thumb) {
+        $this->thumb = $thumb;
+    }
+
+    function setInternal($internal) {
+        $this->internal = $internal;
     }
 
     function setDate($date) {
@@ -112,5 +132,4 @@ class NewsModel extends CI_Model{
     }
 
 
-    
 }

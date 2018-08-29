@@ -25,7 +25,7 @@
                                         <div class="post-heading">
                                             <h3><a href="<?= base_url('news/detail/' . $new->newsid); ?>"><?php echo $new->title; ?></a></h3>
                                         </div>
-                                        <img src="<?php echo $new->image; ?>" alt="" />
+                                        <img src="<?php echo $new->thumb; ?>" alt="" />
                                     </div>
                                     <p>
                                         <?php echo $new->abstract; ?>

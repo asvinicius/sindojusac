@@ -21,7 +21,7 @@
                                     <div class="post-heading">
                                         <h3><?php echo $detail['title']; ?></h3>
                                     </div>
-                                    <img src="<?php echo base_url().$detail['image']; ?>" alt="" />
+                                    <img src="<?php echo base_url().$detail['internal']; ?>" alt="" />
                                 </div>
                                 <p align="justify">
                                     <?php echo $detail['content']; ?>
