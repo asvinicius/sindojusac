@@ -213,6 +213,7 @@ ini_set(“display_errors”, 0 );
                                                     <!--
                                                     <li><a href="<?= base_url('covenant'); ?>">Convênios</a></li>
                                                     <li><a href="#">Transparência</a></li>
+                                                    <li><a href="#">Aniversariantes</a></li>
                                                     -->
                                                 </ul>
                                             </li>
