@@ -3,7 +3,6 @@ defined('BASEPATH') OR exit('No direct');
 
     class Welcome extends CI_Controller{
         public function index(){
-            
             if ($this->isLogged()){
                 if($this->isAdmsec()){
                     $this->load->view('template/super/header');
