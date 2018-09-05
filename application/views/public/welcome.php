@@ -2,67 +2,30 @@
     <title>Inicio | SINDOJUS-AC</title>
 </head>
 <section id="featured">
-    <div id="nivo-slider">
-        <div class="nivo-slider">
-            <img src="<?= base_url('assets/img/slides/nivo/bg-1.jpg'); ?>" alt="" title="#caption-1" />
-            <img src="<?= base_url('assets/img/slides/nivo/bg-2.jpg'); ?>" alt="" title="#caption-2" />
-            <img src="<?= base_url('assets/img/slides/nivo/bg-3.jpg'); ?>" alt="" title="#caption-3" />
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="span12">
-                    <div class="nivo-caption" id="caption-1">
-                        <div>
-                            <h2>Fundaçao do <strong>SINDOJUS-AC</strong></h2>
-                            <p>
-                                Em 8 de dezembro de 2017, reunidos em Assembleia Geral, 
-                                os oficiais de Justiça do Acre fundaram o Sindojus-AC 
-                                (Sindicato dos Oficiais de Justiça do Acre). O objetivo 
-                                é a representação sindical específica da categoria dos 
-                                Oficiais de Justiça no Estado do Acre.
-                                A Assembleia também elegeu a diretoria e o conselho fiscal 
-                                da primeira gestão da organização. O primeiro presidente 
-                                eleito é o oficial de Justiça James Cley Nascimento Borges 
-                                e para vice foi eleito o oficial de Justiça Cleido Rodrigues 
-                                da Silva e Silva.
-                            </p>
-                            <a href="<?= base_url('news/detail/1'); ?>" class="btn btn-theme">Leia mais</a>
-                        </div>
-                    </div>
-                    <!-- Slide #2 caption -->
-                    <div class="nivo-caption" id="caption-2">
-                        <div>
-                            <h2><strong>SINDOJUS-AC</strong> presente na visita da FOJEBRA à PF</h2>
-                            <p>
-                                Representantes do SINDOJUS-AC estiveram juntos com dirigentes da FOJEBRA 
-                                em reunião com a Dra. Silvana Borges, Diretora Executiva do DIREX, órgão 
-                                auxiliar da Polícia Federal, e com o Dr. Tony Gean de Castro, Chefe da 
-                                Divisão Nacional de Armas (DARM). <br />
-                                O presidente da FOJEBRA, Edvaldo Lima, abriu a reunião apresentando a 
-                                Federação, seus estados componentes, e fazendo um breve histórico do 
-                                tema “Porte de Arma para os Oficiais de Justiça”.
-                            </p>
-                            <a href="<?= base_url('news/detail/2'); ?>" class="btn btn-theme">Leia mais</a>
-                        </div>
-                    </div>
-                    <!-- Slide #3 caption -->
-                    <div class="nivo-caption" id="caption-3">
-                        <div>
-                            <h2><strong>SINDOJUS-AC</strong> presente em assembléia da FOJEBRA em Brasília</h2>
-                            <p>
-                                Diretores das entidades sindicais de norte a sul do país, estiveram reunidos 
-                                na sede da Fojebra em Brasília, para realização da assembleia extraordinária 
-                                convocada para data do dia 09 de julho. Diversos pontos foram deliberados, 
-                                inclusive medidas eficácias contra entidades sindicais que tentar inibir o 
-                                trabalho realizado pela Fojebra, inclusive por questões políticas.
-                            </p>
-                            <a href="<?= base_url('news/detail/3'); ?>" class="btn btn-theme">Leia mais</a>
-                        </div>
+    <?php if($news){ ?>
+        <div id="nivo-slider">
+            <div class="nivo-slider">
+                <?php foreach($news as $new){ ?>
+                    <img src="<?php echo base_url('assets/img/news/').$new->main; ?>" alt="" title="#caption-<?php echo $new->newsid; ?>" />
+                <?php } ?>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="span12">
+                        <?php foreach($news as $new){ ?>
+                            <div class="nivo-caption" id="caption-<?php echo $new->newsid; ?>">
+                                <div>
+                                    <h2><?php echo $new->title; ?></h2>
+                                    <p> <?php echo $new->abstract; ?> </p>
+                                    <a href="<?= base_url('news/detail/' . $new->newsid); ?>" class="btn btn-theme">Leia mais</a>
+                                </div>
+                            </div>
+                        <?php } ?>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    <?php } ?>
     <!-- end slider -->
 </section>
 <section class="callaction">

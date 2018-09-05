@@ -26,7 +26,7 @@ ini_set(“display_errors”, 0 );
         <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png" />
         <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png" />
         <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png" />
-        <link rel="shortcut icon" href="assets/img/favicon.png" />
+        <link rel="shortcut icon" href="<?= base_url('assets/img/favicon.png'); ?>" />
 
         <!-- =======================================================
           Theme Name: Flattern

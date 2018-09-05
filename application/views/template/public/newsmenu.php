@@ -11,9 +11,9 @@
                     -->
                     <div class="widget">
                         <h5 class="widgetheading">Notícias importantes</h5>
-                        <?php if ($news) { ?>
+                        <?php if ($important) { ?>
                             <ul class="recent">
-                                <?php foreach ($news as $new) { ?>
+                                <?php foreach ($important as $new) { ?>
                                     <li>
                                         <h6><a href="<?= base_url('news/detail/' . $new->newsid); ?>"><?php echo $new->title; ?></a></h6>
                                         <p>

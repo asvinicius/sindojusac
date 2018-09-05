@@ -7,7 +7,8 @@ defined('BASEPATH') OR exit('No direct');
             $news = new NewsModel();
             
             $data = $news->listing();
-            $msg = array("news" => $data);
+            $important = $news->listimportant();
+            $msg = array("news" => $data, "important" => $important);
             
             $this->load->view('template/public/header');
             $this->load->view('public/news', $msg);
@@ -19,22 +20,12 @@ defined('BASEPATH') OR exit('No direct');
             $news = new NewsModel();
             
             $detail = $news->search($newsid);
-            $data = $news->listing();
+            $important = $news->listimportant();
             
-            $msg = array("news" => $data, "detail" => $detail);
+            $msg = array("important" => $important, "detail" => $detail);
             
-            $this->load->view('template/public/header');
-            if($newsid == 1){
-                $this->load->view('public/fundacao', $msg);
-            }
-            if($newsid == 2){
-                $this->load->view('public/fojebrapf', $msg);
-            }
-            if($newsid == 3){
-                $this->load->view('public/assfojebrabsb', $msg);
-            }
-            
-            // $this->load->view('public/newsdetail', $msg);
+            $this->load->view('template/public/header');            
+            $this->load->view('public/newsdetail', $msg);
             $this->load->view('template/public/newsmenu', $msg);
             $this->load->view('template/public/footer');
         }

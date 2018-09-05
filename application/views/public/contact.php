@@ -39,7 +39,7 @@
                             <div class="validation"></div>
                         </div>
                         <div class="span12 margintop10 form-group">
-                            <textarea class="form-control" name="message" rows="12" data-rule="required" data-msg="Escreva sua mensagem" placeholder="Escreva sua mensagem"></textarea>
+                            <textarea class="form-control" name="message" rows="12" data-rule="required" data-msg="Escreva sua mensagem" placeholder="Escreva sua mensagem" style="resize: none"></textarea>
                             <div class="validation"></div>
                             <p class="text-center">
                                 <button class="btn btn-large btn-theme margintop10" type="submit">Enviar</button>

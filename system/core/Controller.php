@@ -93,18 +93,11 @@ class CI_Controller {
 		return self::$instance;
 	}
         public function isLogged(){
-            if ($this->session->userdata('superlogged') === TRUE){
+            if ($this->session->userdata('off_logged') === TRUE){
                 return true;
             }
             else {
                 return false;
-            }
-        }
-        public function isAdmsec(){
-            if ($this->session->userdata('sector') === 1){
-                if ($this->session->userdata('role') === '1'){
-                    return true;
-                }
             }
         }
 }

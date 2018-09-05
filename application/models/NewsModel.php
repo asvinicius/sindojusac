@@ -50,7 +50,13 @@ class NewsModel extends CI_Model{
     
     public function listing() {
         $this->db->select('*');
-        $this->db->order_by("date", "asc");
+        $this->db->order_by("date", "desc");
+        return $this->db->get("news")->result();
+    }
+    
+    public function listimportant() {
+        $this->db->where("type", 1);
+        $this->db->order_by("date", "desc");
         return $this->db->get("news")->result();
     }
     
