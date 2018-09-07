@@ -33,34 +33,53 @@
                         </div>
                     </article>
                 <?php } ?>
-                <div class="comment-area">
+                <?php if($detail){ ?>
+                <div class="comment-area">                    
+                    <?php if($sendcomment  != null){ ?>
+                        <div class="<?php echo $sendcomment['class']; ?>">
+                            <button type="button" class="close" data-dismiss="alert">&times;</button>
+                            <?php echo $sendcomment['message']; ?>
+                        </div>
+                    <?php } ?>
                     <?php if($comments){ ?>
-                        <h4>4 Comments</h4>
-                        <div class="media">
-                            <div class="media-body">
-                                <div class="media-content">
-                                    <h6><span>March 12, 2013</span> Karen medisson</h6>
-                                    <p>
-                                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                                    </p>
+                        <h4><?php 
+                                if($num == 1){
+                                    echo $num." comentário";
+                                }else{
+                                    echo $num." comentários";
+                                }
+                            ?>
+                        </h4>
+                        <?php foreach($comments as $comment){ ?>
+                            <div class="media">
+                                <div class="media-body">
+                                    <div class="media-content">
+                                        <h6><span><?php echo date('d-m-Y', strtotime($comment->date)); ?></span> <?php echo $comment->author; ?></h6>
+                                        <p>
+                                            <?php echo $comment->message; ?>
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        <?php } ?>
                     <?php }else{ ?>
                         <h5>Nenhum comentário. Seja o primeiro!</h5>
                     <?php } ?>
                     <h4>Deixe seu comentário</h4>
-                    <form id="commentform" action="#" method="post" name="comment-form">
+                    <form action="<?= base_url('news/sendcomment'); ?>" method="post" class="contactForm">
                         <div class="row">
-                            <div class="span4">
-                                <input type="text" placeholder="Seu nome" />
+                            <input type="hidden" id="news" name="news" value="<?= $detail['newsid']; ?>">
+                            <div class="span4 form-group">
+                                <input type="text" name="name" class="form-control" id="name" placeholder="Seu nome" data-rule="minlen:4" data-msg="Necessário no mínimo 4 caracteres" />
+                                <div class="validation"></div>
                             </div>
-                            <div class="span4">
-                                <input type="text" placeholder="Sem email" />
+                            <div class="span4 form-group">
+                                <input type="text" name="email" class="form-control" id="email" placeholder="Seu email" />
+                                <div class="validation"></div>
                             </div>
-                            <div class="span8 margintop10">
+                            <div class="span8 margintop10 form-group">
                                 <p>
-                                    <textarea rows="12" class="input-block-level" placeholder="Escreva seu comentário" style="resize: none"></textarea>
+                                    <textarea rows="12" name="comment" id="comment" class="input-block-level" placeholder="Escreva seu comentário" style="resize: none"></textarea>
                                 </p>
                                 <p class="text-center">
                                     <button class="btn btn-large btn-theme margintop10" type="submit">Enviar</button>
@@ -69,4 +88,5 @@
                         </div>
                     </form>
                 </div>
+                <?php } ?>
             </div>
