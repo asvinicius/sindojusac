@@ -39,6 +39,7 @@ defined('BASEPATH') OR exit('No direct');
             $this->load->view('template/public/newsmenu', $msg);
             $this->load->view('template/public/footer');
         }
+        
         public function sendcomment() {
             $this->load->model('NewsModel');
             $this->load->model('CommentModel');
