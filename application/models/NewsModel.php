@@ -10,6 +10,7 @@ class NewsModel extends CI_Model{
     protected $thumb;
     protected $internal;
     protected $date;
+    protected $status;
     
     function __construct() {
         parent::__construct();
@@ -22,6 +23,7 @@ class NewsModel extends CI_Model{
         $this->setThumb(null);
         $this->setInternal(null);
         $this->setDate(null);
+        $this->setStatus(null);
     }
     
     public function save($data = null) {
@@ -101,6 +103,10 @@ class NewsModel extends CI_Model{
         return $this->date;
     }
 
+    function getStatus() {
+        return $this->status;
+    }
+
     function setNewsid($newsid) {
         $this->newsid = $newsid;
     }
@@ -137,5 +143,7 @@ class NewsModel extends CI_Model{
         $this->date = $date;
     }
 
-
+    function setStatus($status) {
+        $this->status = $status;
+    }
 }
