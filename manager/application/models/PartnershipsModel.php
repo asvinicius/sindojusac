@@ -6,6 +6,7 @@ class PartnershipsModel extends CI_Model{
     protected $partnerdescription;
     protected $partnermain;
     protected $partnermini;
+    protected $signaturedate;
     protected $status;
     
     function __construct() {
@@ -15,6 +16,7 @@ class PartnershipsModel extends CI_Model{
         $this->setPartnerdescription(null);
         $this->setPartnermain(null);
         $this->setPartnermini(null);
+        $this->setSignaturedate(null);
         $this->setStatus(null);
     }
     
@@ -73,6 +75,10 @@ class PartnershipsModel extends CI_Model{
         return $this->partnermini;
     }
 
+    function getSignaturedate() {
+        return $this->signaturedate;
+    }
+
     function getStatus() {
         return $this->status;
     }
@@ -95,6 +101,10 @@ class PartnershipsModel extends CI_Model{
 
     function setPartnermini($partnermini) {
         $this->partnermini = $partnermini;
+    }
+
+    function setSignaturedate($signaturedate) {
+        $this->signaturedate = $signaturedate;
     }
 
     function setStatus($status) {

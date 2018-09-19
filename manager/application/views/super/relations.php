@@ -24,7 +24,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-6 col-sm-6">
-                        <a>
+                        <a title="Parcerias" href="<?= base_url('partnerships'); ?>">
                             <div class="card">
                                 <div class="content">
                                     <div class="row">
@@ -49,7 +49,7 @@
                         </a>
                     </div>
                     <div class="col-lg-6 col-sm-6">
-                        <a>
+                        <a title="Convênios" href="<?= base_url('covenants'); ?>">
                             <div class="card">
                                 <div class="content">
                                     <div class="row">

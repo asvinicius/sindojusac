@@ -41,7 +41,7 @@ class Editnews extends CI_Controller {
             $data['status'] = $this->input->post('status');
             
             $config['upload_path'] = '../assets/img/news';
-            $config['allowed_types'] = "jpg";
+            $config['allowed_types'] = "jpg|png";
             $config['encrypt_name'] = true;
             
             $this->load->library('upload', $config);

@@ -31,7 +31,7 @@ class Newnotice extends CI_Controller {
             $data['content'] = $this->input->post('content');
             
             $config['upload_path'] = '../assets/img/news';
-            $config['allowed_types'] = "jpg";
+            $config['allowed_types'] = "jpg|png";
             $config['encrypt_name'] = true;
             
             $this->load->library('upload', $config);
@@ -51,7 +51,6 @@ class Newnotice extends CI_Controller {
             }
             
             $data['date'] = date("Y-m-d H:i");
-            $data['status'] = 0;
             
             if ($news->save($data)) {
                 redirect(base_url('news'));

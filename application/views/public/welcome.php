@@ -124,26 +124,21 @@
             <div class="span12">
                 <h4 class="heading">Parceiros do <strong>SINDOJUS-AC</strong></h4>
                 <div class="row">
-                    <section id="projects">
-                        <ul id="thumbs" class="portfolio">
-                            <li class="item-thumbs span3 design" data-id="id-0" data-type="web">
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="FOJEBRA" href="assets/img/partnerships/fojebramain.png">
-                                    <span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <img src="assets/img/partnerships/fojebramini.png" alt="A Federação das Entidades Representativas dos Oficiais de Justiça Estaduais do Brasil - Fojebra é a entidade nacional responsável por reunir todos os sindicatos e associações estaduais de Oficiais de Justiça do País.">
-                            </li>
-                            <!--
-                            <li class="item-thumbs span3 design" data-id="id-0" data-type="web">
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="TJAC" href="assets/img/tjacbrasao.png">
-                                    <span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <img src="assets/img/tjacbrasao.png" alt="O Tribunal de Justiça do Acre é o responsável por dar suporte ao trabalho dos Oficiais de Justiça. Tem como missão, garantir os direitos do jurisdicionado no Estado do Acre, com justiça, agilidade e ética, promovendo o bem de toda a sociedade.">
-                            </li>
-                            -->
-                        </ul>
-                    </section>
+                    <?php if($partnerships){ $a = 0;?>
+                        <section id="projects">
+                            <ul id="thumbs" class="portfolio">
+                                <?php foreach($partnerships as $partner){ ?>
+                                    <li class="item-thumbs span2 design" data-id="id-0" data-type="web">
+                                        <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="<?= $partner->partnername ?>" href="<?php echo "assets/img/partnerships/".$partner->partnermain; ?>">
+                                            <span class="overlay-img"></span>
+                                            <span class="overlay-img-thumb font-icon-plus"></span>
+                                        </a>
+                                        <img src="<?php echo "assets/img/partnerships/".$partner->partnermini; ?>" alt="<?= $partner->partnerdescription ?>">
+                                    </li>
+                                <?php } ?>
+                            </ul>
+                        </section>
+                    <?php } ?>
                 </div>
             </div>
         </div>

@@ -9,10 +9,13 @@ defined('BASEPATH') OR exit('No direct');
                 $this->load->view('template/public/footer');
             }else{
                 $this->load->model('NewsModel');
+                $this->load->model('PartnershipsModel');
                 $news = new NewsModel();
+                $partnerships = new PartnershipsModel();
 
-                $data = $news->listimportant();
-                $msg = array("news" => $data);
+                $notice = $news->listimportant();
+                $partners = $partnerships->listing();
+                $msg = array("news" => $notice, "partnerships" => $partners);
                 
                 $this->load->view('template/public/header');
                 $this->load->view('public/welcome', $msg);

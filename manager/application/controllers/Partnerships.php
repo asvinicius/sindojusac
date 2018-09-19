@@ -24,12 +24,12 @@ class Partnerships extends CI_Controller {
         }
     }
     
-    public function changestatus($newsid=null) {
+    public function changestatus($partnershipsid = null) {
         if ($this->isLogged()){
-            $this->load->model('NewsModel');
-            $news = new NewsModel();
+            $this->load->model('PartnershipsModel');
+            $partnerships = new PartnershipsModel();
             
-            $data = $news->search($newsid);
+            $data = $partnerships->search($partnershipsid);
             
             if($data['status'] == 0){
                 $data['status'] = 1;
@@ -37,21 +37,21 @@ class Partnerships extends CI_Controller {
                 $data['status'] = 0;
             }
             
-            if ($news->update($data)) {
-                redirect(base_url('viewnews/index/' . $data['newsid']));
+            if ($partnerships->update($data)) {
+                redirect(base_url('partnerships'));
             }
         }else{
             redirect(base_url('login'));
         }
     }
 
-    public function delete($newsid = null) {
+    public function delete($partnershipsid = null) {
         if ($this->isLogged()){
-            $this->load->model('NewsModel');
-            $news = new NewsModel();
+            $this->load->model('PartnershipsModel');
+            $partnerships = new PartnershipsModel();
             
-            if ($news->delete($newsid)) {
-                redirect(base_url('news'));
+            if ($partnerships->delete($partnershipsid)) {
+                redirect(base_url('partnerships'));
             }
             
         }else{
