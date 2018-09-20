@@ -10,12 +10,15 @@ defined('BASEPATH') OR exit('No direct');
             }else{
                 $this->load->model('NewsModel');
                 $this->load->model('PartnershipsModel');
+                $this->load->model('CovenantsModel');
                 $news = new NewsModel();
                 $partnerships = new PartnershipsModel();
+                $covenants = new CovenantsModel();
 
                 $notice = $news->listimportant();
                 $partners = $partnerships->listing();
-                $msg = array("news" => $notice, "partnerships" => $partners);
+                $covens = $covenants->listing();
+                $msg = array("news" => $notice, "partnerships" => $partners, "covenants" => $covens);
                 
                 $this->load->view('template/public/header');
                 $this->load->view('public/welcome', $msg);

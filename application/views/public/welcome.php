@@ -111,20 +111,17 @@
                 </div>
             </div>
         </div>
-        <!-- divider -->
-        <div class="row">
-            <div class="span12">
-                <div class="solidline">
+        <?php if($partnerships){ ?>
+            <div class="row">
+                <div class="span12">
+                    <div class="solidline">
+                    </div>
                 </div>
             </div>
-        </div>
-        <!-- end divider -->
-        <!-- Portfolio Projects -->
-        <div class="row">
-            <div class="span12">
-                <h4 class="heading">Parceiros do <strong>SINDOJUS-AC</strong></h4>
-                <div class="row">
-                    <?php if($partnerships){ $a = 0;?>
+            <div class="row">
+                <div class="span12">
+                    <h4 class="heading">Parceiros do <strong>SINDOJUS-AC</strong></h4>
+                    <div class="row">
                         <section id="projects">
                             <ul id="thumbs" class="portfolio">
                                 <?php foreach($partnerships as $partner){ ?>
@@ -138,55 +135,31 @@
                                 <?php } ?>
                             </ul>
                         </section>
-                    <?php } ?>
+                    </div>
                 </div>
             </div>
-        </div>
-        
-        <!--
-        <div class="row">
-            <div class="span12">
-                <div class="solidline">
+        <?php } ?>
+        <?php if($covenants){ ?>
+            <div class="row">
+                <div class="span12">
+                    <div class="solidline">
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="span12">
-                <h4>Convênios com o <strong>SINDOJUS-AC</strong></h4>
-                <ul id="mycarousel" class="jcarousel-skin-tango recent-jcarousel clients">
-                    <li>
-                        <a href="#">
-                            <img src="<?= base_url('assets/img/dummies/clients/client1.png'); ?>" class="client-logo" alt="" />
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="<?= base_url('assets/img/dummies/clients/client2.png'); ?>" class="client-logo" alt="" />
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="<?= base_url('assets/img/dummies/clients/client3.png'); ?>" class="client-logo" alt="" />
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="<?= base_url('assets/img/dummies/clients/client4.png'); ?>" class="client-logo" alt="" />
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="<?= base_url('assets/img/dummies/clients/client5.png'); ?>" class="client-logo" alt="" />
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="<?= base_url('assets/img/dummies/clients/client6.png'); ?>" class="client-logo" alt="" />
-                        </a>
-                    </li>
-                </ul>
+            <div class="row">
+                <div class="span12">
+                    <h4>Convênios com o <strong>SINDOJUS-AC</strong></h4>
+                    <ul id="mycarousel" class="jcarousel-skin-tango recent-jcarousel clients">
+                        <?php foreach($covenants as $covenant){ ?>
+                            <li>
+                                <a href="#" title="<?= $covenant->company ?>">
+                                    <img src="<?= base_url('assets/img/covenants/'.$covenant->covenantmini); ?>" class="client-logo" alt="" />
+                                </a>
+                            </li>
+                        <?php } ?>
+                    </ul>
+                </div>
             </div>
-        </div>
-        -->
+        <?php } ?>
     </div>
 </section>
