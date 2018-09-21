@@ -58,7 +58,7 @@
                                             <h5><?php echo date('d-m-Y', strtotime($covenant['signaturedate'])); ?><br /><small>Assinatura</small></h5>
                                         </div>
                                         <div class="col-md-6">
-                                            <h5><?php echo "2"; ?><br />
+                                            <h5><?php echo "0"; ?><br />
                                                 <small>
                                                     <?php 
                                                         if(1 == 2){

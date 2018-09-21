@@ -197,7 +197,7 @@ ini_set(“display_errors”, 0 );
                                                     <li><a href="<?= base_url('history'); ?>">História</a></li>
                                                     <li><a href="<?= base_url('direction'); ?>">Diretoria</a></li>
                                                     <li><a href="<?= base_url('statute'); ?>">Estatuto</a></li>
-                                                    <li><a href="<?= base_url('ata'); ?>">Atas</a></li>
+                                                    <!-- <li><a href="<?= base_url('ata'); ?>">Atas</a></li> -->
                                                 </ul>
                                             </li>
                                             <li class="dropdown">
@@ -206,12 +206,12 @@ ini_set(“display_errors”, 0 );
                                                     <li><a href="<?= base_url('news'); ?>">Notícias</a></li>
                                                     <!--
                                                     <li><a href="<?= base_url('shifts'); ?>">Plantões</a></li>
-                                                    <li><a href="<?= base_url('assembly'); ?>">Assembleias</a></li>
+                                                    <li><a href="<?= base_url('assemblies'); ?>">Assembleias</a></li>
                                                     <li><a href="<?= base_url('legislation'); ?>">Legislação</a></li>
                                                     -->
                                                     <li><a href="https://www.tjac.jus.br/tribunal/administrativo/coger/legislacao/" target="_blank">Legislação</a></li>
                                                     <!--
-                                                    <li><a href="<?= base_url('covenant'); ?>">Convênios</a></li>
+                                                    <li><a href="<?= base_url('covenants'); ?>">Convênios</a></li>
                                                     <li><a href="#">Transparência</a></li>
                                                     <li><a href="#">Aniversariantes</a></li>
                                                     -->

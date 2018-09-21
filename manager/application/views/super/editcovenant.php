@@ -27,7 +27,7 @@
                             <div class="row">
                                 <div class="header">
                                     <div class="col-md-9">
-                                        <h4 class="title">Novo convênio</h4>
+                                        <h4 class="title">Editar convênio</h4>
                                         <!-- <p class="category">Ordenadas por data</p> -->
                                     </div>
                                     <div class="col-md-3">
@@ -37,12 +37,17 @@
                                 </div>
                             </div>
                             <div class="content">
-                                <form class="form-group" method="post" action="<?= base_url('newcovenant/save'); ?>" enctype="multipart/form-data">
+                                <form class="form-group" method="post" action="<?= base_url('editcovenant/update'); ?>" enctype="multipart/form-data">
+                                    <input type="hidden" id="covenantsid" name="covenantsid" value="<?= $covenant['covenantsid']; ?>">
+                                    <input type="hidden" id="covenantmain" name="covenantmain" value="<?= $covenant['covenantmain']; ?>">
+                                    <input type="hidden" id="covenantmini" name="covenantmini" value="<?= $covenant['covenantmini']; ?>">
+                                    <input type="hidden" id="signaturedate" name="signaturedate" value="<?= $covenant['signaturedate']; ?>">
+                                    <input type="hidden" id="status" name="status" value="<?= $covenant['status']; ?>">
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="form-group">
                                                 <label>Nome da Companhia</label>
-                                                <input type="text" id="company" name="company" class="form-control border-input" placeholder="Nome da Companhia" required="true">
+                                                <input type="text" id="company" name="company" value="<?= $covenant['company']; ?>" class="form-control border-input" placeholder="Nome da Companhia" required="true">
                                             </div>
                                         </div>
                                     </div>
@@ -50,7 +55,7 @@
                                         <div class="col-md-12">
                                             <div class="form-group">
                                                 <label title="Coloque cada parágrafo dentro das tags <p> </p>">Descrição do convênio</label>
-                                                <textarea rows="5" class="form-control border-input" id="covenantdescription" name="covenantdescription" placeholder="Resumo" required="true"></textarea>
+                                                <textarea rows="5" class="form-control border-input" id="covenantdescription" name="covenantdescription" placeholder="Resumo" required="true"><?= $covenant['covenantdescription']; ?></textarea>
                                             </div>
                                         </div>
                                     </div>
@@ -58,16 +63,18 @@
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <label title="Foto a ser mostrada na lista de covênios">Foto lista</label>
-                                                <input type="file" id="covenantmini" name="covenantmini" placeholder="Thumbnail" required="true">
+                                                <img src="<?= '/sindojusac/assets/img/covenants/'.$covenant['covenantmini'] ?>" height="250" width="310">
+                                                <input type="file" id="covenantmini" name="covenantmini" placeholder="Thumbnail">
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
-                                                <label title="Foto a ser mostrada no detalhe do convênio">Foto detalhe</label>
-                                                <input type="file" id="covenantmain" name="covenantmain" placeholder="Internal" required="true">
+                                               <label title="Foto a ser mostrada no detalhe do convênio">Foto detalhe</label>
+                                                <img src="<?= '/sindojusac/assets/img/covenants/'.$covenant['covenantmain'] ?>" height="250" width="310">
+                                                <input type="file" id="covenantmain" name="covenantmain" placeholder="Internal">
                                             </div>
                                         </div>
-                                    </div>
+                                    </div>      
                                     <div class="text-center">
                                         <button type="submit" class="btn btn-info btn-fill btn-wd">Salvar</button>
                                         <a type="btn" class="btn btn-danger btn-fill btn-wd" href="<?= base_url('covenants'); ?>">Cancelar</a>
