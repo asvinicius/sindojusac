@@ -19,7 +19,7 @@ class Several extends CI_Controller {
     }
 
     public function getPage() {
-        $current = array("id" => 3, "page" => "user");
+        $current = array("id" => 4, "page" => "user");
         return array("current" => $current);
     }
 }

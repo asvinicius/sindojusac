@@ -45,7 +45,7 @@ ini_set(“display_errors”, 0 );
                             <div class="headnav">
                                 <ul>
                                     <!--<li><a href="#mySuperin" data-toggle="modal"><i class="icon-user"></i> Administrador</a></li>-->
-                                    <a href="<?= base_url('manager'); ?>"><i class="icon-user"></i> Administrador</a>
+                                    <a href="<?= base_url('manager'); ?>" target="_blank"><i class="icon-user"></i> Administrador</a>
                                 </ul>
                             </div>
                             <!-- Signup Modal -->

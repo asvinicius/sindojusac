@@ -67,8 +67,8 @@
                                                                 }else{
                                                                     echo "Ativar convênio";
                                                                 }
-                                                                    ?>" class="<?php if($covenant->status == 1){echo "icon-danger";}else{echo "icon-success";} ?>">
-                                                                <i class="<?php if($covenant->status == 1){echo "ti-lock";}else{echo "ti-unlock";} ?>"></i>
+                                                                    ?>" class="<?php if($covenant->status == 1){echo "icon-success";}else{echo "icon-danger";} ?>">
+                                                                <i class="<?php if($covenant->status == 1){echo "ti-unlock";}else{echo "ti-lock";} ?>"></i>
                                                             </a>
                                                             <a href="<?= base_url('viewcovenant/index/' . $covenant->covenantsid); ?>" title="Visualizar convênio" class="icon-success">
                                                                 <i class="ti-agenda"></i>

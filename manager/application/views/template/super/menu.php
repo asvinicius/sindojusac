@@ -47,6 +47,12 @@ ini_set(“display_errors”, 0 );
                             </a>
                         </li>
                         <li class="<?php if($page['current'] != null){if($page['current']["id"] == 3){echo 'active';}} ?>">
+                            <a href="<?= base_url('gallery'); ?>" title="Galeria">
+                                <i class="ti-gallery"></i>
+                                <p>Galeria</p>
+                            </a>
+                        </li>
+                        <li class="<?php if($page['current'] != null){if($page['current']["id"] == 4){echo 'active';}} ?>">
                             <a href="<?= base_url('several'); ?>" title="Páginas diversas">
                                 <i class="ti-layers-alt"></i>
                                 <p>Páginas diversas</p>
