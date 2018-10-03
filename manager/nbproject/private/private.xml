@@ -3,7 +3,12 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/xampp/htdocs/sindojusac/manager/application/views/super/several.php</file>
+            <file>file:/C:/xampp/htdocs/sindojusac/manager/application/controllers/Addphoto.php</file>
+            <file>file:/C:/xampp/htdocs/sindojusac/manager/application/views/super/gallery.php</file>
+            <file>file:/C:/xampp/htdocs/sindojusac/manager/application/views/super/addphoto.php</file>
+            <file>file:/C:/xampp/htdocs/sindojusac/manager/application/controllers/Editphoto.php</file>
+            <file>file:/C:/xampp/htdocs/sindojusac/manager/application/controllers/Gallery.php</file>
+            <file>file:/C:/xampp/htdocs/sindojusac/manager/application/views/super/editphoto.php</file>
         </group>
     </open-files>
 </project-private>

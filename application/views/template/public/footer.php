@@ -46,7 +46,7 @@
                         CEP: 69918-444<br>
                     </address>
                     <p>
-                        CNPJ: 29.882.385/0001-03 <br>
+                        CNPJ: 29.882.384/0001-03 <br>
                         <i class="icon-phone"></i> (068) 2102-1324 <br>
                         <i class="icon-envelope-alt"></i> sindojusac@gmail.com
                     </p>

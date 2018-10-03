@@ -17,7 +17,7 @@
                                 <div>
                                     <h2><?php echo $new->title; ?></h2>
                                     <p> <?php echo $new->abstract; ?> </p>
-                                    <a href="<?= base_url('news/detail/' . $new->newsid); ?>" class="btn btn-theme">Leia mais</a>
+                                    <a href="<?= base_url('news/detail/' . $new->slug); ?>" class="btn btn-theme">Leia mais</a>
                                 </div>
                             </div>
                         <?php } ?>

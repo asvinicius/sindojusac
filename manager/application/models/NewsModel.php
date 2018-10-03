@@ -4,6 +4,7 @@ class NewsModel extends CI_Model{
     protected $newsid;
     protected $type;
     protected $title;
+    protected $slug;
     protected $abstract;
     protected $content;
     protected $main;
@@ -17,6 +18,7 @@ class NewsModel extends CI_Model{
         $this->setNewsid(null);
         $this->setType(null);
         $this->setTitle(null);
+        $this->setSlug(null);
         $this->setAbstract(null);
         $this->setContent(null);
         $this->setMain(null);
@@ -73,6 +75,10 @@ class NewsModel extends CI_Model{
         return $this->title;
     }
 
+    function getSlug() {
+        return $this->slug;
+    }
+
     function getAbstract() {
         return $this->abstract;
     }
@@ -111,6 +117,10 @@ class NewsModel extends CI_Model{
 
     function setTitle($title) {
         $this->title = $title;
+    }
+
+    function setSlug($slug) {
+        $this->slug = $slug;
     }
 
     function setAbstract($abstract) {

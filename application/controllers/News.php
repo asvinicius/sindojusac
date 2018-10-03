@@ -16,14 +16,14 @@ defined('BASEPATH') OR exit('No direct');
             $this->load->view('template/public/footer');
         }
         
-        public function detail($newsid = null) {
+        public function detail($slug = null) {
             $this->load->model('NewsModel');
             $this->load->model('CommentModel');
             $news = new NewsModel();
             $comment = new CommentModel();
             
-            $detail = $news->search($newsid);
-            $comments = $comment->listing($newsid);
+            $detail = $news->search($slug);
+            $comments = $comment->listing($detail['newsid']);
             
             $num = 0;
             foreach ($comments as $comment) {

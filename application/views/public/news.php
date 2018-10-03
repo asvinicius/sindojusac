@@ -23,7 +23,7 @@
                                 <div class="span8">
                                     <div class="post-image">
                                         <div class="post-heading">
-                                            <h3><a href="<?= base_url('news/detail/' . $new->newsid); ?>"><?php echo $new->title; ?></a></h3>
+                                            <h3><a href="<?= base_url('news/detail/' . $new->slug); ?>"><?php echo $new->title; ?></a></h3>
                                         </div>
                                         <img src="<?php echo base_url('assets/img/news/').$new->thumb; ?>" alt="" />
                                     </div>
@@ -34,7 +34,7 @@
                                         <ul class="meta-post">
                                             <li><i class="icon-calendar"></i><?php echo date('d-m-Y H:i', strtotime($new->date)); ?></li>
                                         </ul>
-                                        <a href="<?= base_url('news/detail/' . $new->newsid); ?>" class="pull-right">Continue lendo <i class="icon-angle-right"></i></a>
+                                        <a href="<?= base_url('news/detail/' . $new->slug); ?>" class="pull-right">Continue lendo <i class="icon-angle-right"></i></a>
                                     </div>
                                 </div>
                             </div>

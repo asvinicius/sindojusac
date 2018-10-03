@@ -4,6 +4,7 @@ class NewsModel extends CI_Model{
     protected $newsid;
     protected $type;
     protected $title;
+    protected $slug;
     protected $abstract;
     protected $content;
     protected $main;
@@ -17,6 +18,7 @@ class NewsModel extends CI_Model{
         $this->setNewsid(null);
         $this->setType(null);
         $this->setTitle(null);
+        $this->setSlug(null);
         $this->setAbstract(null);
         $this->setContent(null);
         $this->setMain(null);
@@ -62,8 +64,8 @@ class NewsModel extends CI_Model{
         return $this->db->get("news")->result();
     }
     
-    public function search($newsid) {
-        $this->db->where("newsid", $newsid);
+    public function search($slug) {
+        $this->db->where("slug", $slug);
         return $this->db->get("news")->row_array();
     }
 
@@ -77,6 +79,10 @@ class NewsModel extends CI_Model{
 
     function getTitle() {
         return $this->title;
+    }
+
+    function getSlug() {
+        return $this->slug;
     }
 
     function getAbstract() {
@@ -117,6 +123,10 @@ class NewsModel extends CI_Model{
 
     function setTitle($title) {
         $this->title = $title;
+    }
+
+    function setSlug($slug) {
+        $this->slug = $slug;
     }
 
     function setAbstract($abstract) {
