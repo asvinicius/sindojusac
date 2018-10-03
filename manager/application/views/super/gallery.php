@@ -48,7 +48,7 @@
                                             <tbody>
                                                 <?php foreach ($gallery as $photo) { ?>
                                                     <tr>
-                                                        <td><?php echo date('d-m-Y', strtotime($photo->photodate)); ?></td>
+                                                        <td><?php echo date('d-m-Y H:i', strtotime($photo->photodate)); ?></td>
                                                         <td><?php echo $photo->phototitle ?></td>
                                                         <td><img src="<?= '/sindojusac/assets/img/gallery/'.$photo->photoaddress ?>" width="50" alt="..."/></td>
                                                         <td>

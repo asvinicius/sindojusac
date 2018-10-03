@@ -56,11 +56,10 @@
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <div class="col-md-4">
+                                        <div class="col-md-12">
                                             <div class="form-group">
-                                                <label title="Foto a ser mostrada na galeria">Escolher foto</label>
-                                                <img src="<?= '/sindojusac/assets/img/gallery/'.$photo['photoaddress'] ?>" height="250" width="310">
-                                                <input type="file" id="photoaddress" name="photoaddress" placeholder="Foto" >
+                                                <label title="Foto a ser mostrada na aleria">Escolher foto</label>
+                                                <input type="file" id="photoaddress" name="photoaddress" placeholder="Foto" required="true">
                                             </div>
                                         </div>
                                     </div>
