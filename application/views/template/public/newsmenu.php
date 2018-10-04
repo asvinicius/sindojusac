@@ -15,7 +15,7 @@
                             <ul class="recent">
                                 <?php foreach ($important as $new) { ?>
                                     <li>
-                                        <h6><a href="<?= base_url('news/detail/' . $new->newsid); ?>"><?php echo $new->title; ?></a></h6>
+                                        <h6><a href="<?= base_url('news/detail/' . $new->slug); ?>"><?php echo $new->title; ?></a></h6>
                                         <p>
                                             <?php echo $new->abstract; ?>
                                         </p>

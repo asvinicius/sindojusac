@@ -36,6 +36,7 @@ class Editnews extends CI_Controller {
             $data['internal'] = $this->input->post('internal');
             $data['thumb'] = $this->input->post('thumb');
             $data['title'] = $this->input->post('title');
+            $data['slug'] = $this->getSlug($data['title']);
             $data['abstract'] = $this->input->post('abstract');
             $data['content'] = $this->input->post('content');
             $data['status'] = $this->input->post('status');
@@ -67,6 +68,13 @@ class Editnews extends CI_Controller {
         }else{
             redirect(base_url('login'));
         }
+    }
+    
+    public function getSlug($title) {
+        $slug = mb_strtolower($title);
+        $what = array( 'ä','ã','à','á','â','ê','ë','è','é','ï','ì','í','ö','õ','ò','ó','ô','ü','ù','ú','û','ñ','ç',' ','-','(',')',',',';',':','|','!','"','#','$','%','&','/','=','?','~','^','>','<','ª','º' );
+        $by   = array( 'a','a','a','a','a','e','e','e','e','i','i','i','o','o','o','o','o','u','u','u','u','n','c','-','-','-','-','-','-','-','-','-','-','-','-','-','e','-','-','-','-','-','-','-','-','-' );
+        return str_replace($what, $by, $slug);
     }
 
     public function getPage() {

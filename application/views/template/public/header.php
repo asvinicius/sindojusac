@@ -55,24 +55,41 @@ ini_set(“display_errors”, 0 );
                                     <h4 id="mySignupModalLabel">Filie-se ao <strong>Sindojus-AC</strong></h4>
                                 </div>
                                 <div class="modal-body">
-                                    Entre em contato no email <strong>sindojusac@gmail.com</strong> para solicitar sua filiação
-<!--                                    <form class="form-horizontal">
+                                    <form class="form-horizontal">
                                         <div class="control-group">
-                                            <label class="control-label" for="inputText">Nome</label>
+                                            <label class="control-label" for="name">Nome</label>
                                             <div class="controls">
-                                                <input type="text" id="inputText" placeholder="Nome">
+                                                <input type="text" id="name" name="name" placeholder="Nome">
                                             </div>
                                         </div>
                                         <div class="control-group">
-                                            <label class="control-label" for="inputEmail">Email</label>
+                                            <label class="control-label" for="email">Email</label>
                                             <div class="controls">
-                                                <input type="text" id="inputEmail" placeholder="Email">
+                                                <input type="text" id="email" name="email" placeholder="Email">
                                             </div>
                                         </div>
                                         <div class="control-group">
-                                            <label class="control-label" for="inputPhone">Telefone</label>
+                                            <label class="control-label" for="number">Telefone</label>
                                             <div class="controls">
-                                                <input type="text" id="inputSPhone" placeholder="Telefone">
+                                                <input type="text" id="number" name="number" placeholder="Telefone">
+                                            </div>
+                                        </div>
+                                        <div class="control-group">
+                                            <label class="control-label" for="username">Usuário</label>
+                                            <div class="controls">
+                                                <input type="text" id="username" name="username" placeholder="Nome de usuário">
+                                            </div>
+                                        </div>
+                                        <div class="control-group">
+                                            <label class="control-label" for="password">Senha</label>
+                                            <div class="controls">
+                                                <input type="text" id="password" name="password" placeholder="Senha">
+                                            </div>
+                                        </div>
+                                        <div class="control-group">
+                                            <label class="control-label" for="ConfirmPassword">Confirma Senha</label>
+                                            <div class="controls">
+                                                <input type="text" id="ConfirmPassword" name="ConfirmPassword" placeholder="Confirma Senha">
                                             </div>
                                         </div>
                                         <div class="control-group">
@@ -83,11 +100,9 @@ ini_set(“display_errors”, 0 );
                                                 </p>
                                             </div>
                                         </div>
-                                    </form>-->
+                                    </form>
                                 </div>
                             </div>
-                            <!-- end signup modal -->
-                            <!-- Sign in Modal -->
                             <div id="mySignin" class="modal styled hide fade" tabindex="-1" role="dialog" aria-labelledby="mySigninModalLabel" aria-hidden="true">
                                 <div class="modal-header">
                                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
@@ -182,7 +197,7 @@ ini_set(“display_errors”, 0 );
                     <div class="row">
                         <div class="span4">
                             <div class="logo">
-                                <a href="<?= base_url(); ?>"><img src="<?= base_url('assets/img/logo.png'); ?>" alt="" class="logo" /></a>
+                                <a href="<?= base_url('main'); ?>"><img src="<?= base_url('assets/img/logo.png'); ?>" alt="" class="logo" /></a>
                             </div>
                         </div>
                         
@@ -229,10 +244,10 @@ ini_set(“display_errors”, 0 );
                                             <li>
                                                 <a href="<?= base_url('contact'); ?>">Contato </a>
                                             </li>
-                                            <!--
                                             <li>
                                                 <a href="#mySignup" data-toggle="modal">Filie-se </a>
                                             </li>
+                                            <!--
                                             <li>
                                                 <a href="#mySignin" data-toggle="modal">Entrar </a>
                                             </li>
