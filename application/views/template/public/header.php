@@ -22,6 +22,7 @@ ini_set(“display_errors”, 0 );
         <link href="<?= base_url('assets/css/flexslider.css'); ?>" rel="stylesheet" />
         <link href="<?= base_url('assets/css/style.css'); ?>" rel="stylesheet" />
         <link href="<?= base_url('assets/skins/default.css'); ?>" rel="stylesheet" />
+        <script src="<?= base_url('assets/js/masksnvalidation.js'); ?>" type="text/javascript"></script>
         <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png" />
         <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png" />
         <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png" />
@@ -55,41 +56,41 @@ ini_set(“display_errors”, 0 );
                                     <h4 id="mySignupModalLabel">Filie-se ao <strong>Sindojus-AC</strong></h4>
                                 </div>
                                 <div class="modal-body">
-                                    <form class="form-horizontal">
+                                    <form action="<?= base_url('toaffiliate/request'); ?>" method="post"  class="form-horizontal">
                                         <div class="control-group">
                                             <label class="control-label" for="name">Nome</label>
                                             <div class="controls">
-                                                <input type="text" id="name" name="name" placeholder="Nome">
+                                                <input type="text" id="name" name="name" placeholder="Nome" required="true">
                                             </div>
                                         </div>
                                         <div class="control-group">
                                             <label class="control-label" for="email">Email</label>
                                             <div class="controls">
-                                                <input type="text" id="email" name="email" placeholder="Email">
+                                                <input type="email" id="email" name="email" placeholder="Email" required="true">
                                             </div>
                                         </div>
                                         <div class="control-group">
-                                            <label class="control-label" for="number">Telefone</label>
+                                            <label class="control-label" for="number">Celular</label>
                                             <div class="controls">
-                                                <input type="text" id="number" name="number" placeholder="Telefone">
+                                                <input type="text" id="number" name="number" onkeyup="PhoneMask(this);" onkeypress="integerMask();" placeholder="Telefone" required="true">
                                             </div>
                                         </div>
                                         <div class="control-group">
                                             <label class="control-label" for="username">Usuário</label>
                                             <div class="controls">
-                                                <input type="text" id="username" name="username" placeholder="Nome de usuário">
+                                                <input type="text" id="username" name="username" placeholder="Nome de usuário" required="true">
                                             </div>
                                         </div>
                                         <div class="control-group">
                                             <label class="control-label" for="password">Senha</label>
                                             <div class="controls">
-                                                <input type="text" id="password" name="password" placeholder="Senha">
+                                                <input type="password" id="password" name="password" placeholder="Senha" required="true">
                                             </div>
                                         </div>
                                         <div class="control-group">
                                             <label class="control-label" for="ConfirmPassword">Confirma Senha</label>
                                             <div class="controls">
-                                                <input type="text" id="ConfirmPassword" name="ConfirmPassword" placeholder="Confirma Senha">
+                                                <input type="password" id="ConfirmPassword" name="ConfirmPassword" placeholder="Confirma Senha" required="true">
                                             </div>
                                         </div>
                                         <div class="control-group">
@@ -260,3 +261,18 @@ ini_set(“display_errors”, 0 );
                     </div>
                 </div>
             </header>
+            <script type="text/javascript">
+                var password = document.getElementById("password")
+                , ConfirmPassword = document.getElementById("ConfirmPassword");
+
+              function validatePassword(){
+                if(password.value != ConfirmPassword.value) {
+                  ConfirmPassword.setCustomValidity("Senhas diferentes!");
+                } else {
+                  ConfirmPassword.setCustomValidity('');
+                }
+              }
+
+              password.onchange = validatePassword;
+              ConfirmPassword.onkeyup = validatePassword;
+            </script>

@@ -27,15 +27,15 @@
                 <form action="<?= base_url('contact/sendmessage'); ?>" method="post" class="contactForm">
                     <div class="row">
                         <div class="span4 form-group">
-                            <input type="text" name="name" class="form-control" id="name" placeholder="Nome" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                            <input type="text" name="name" class="form-control" id="name" placeholder="Nome" data-rule="minlen:4" data-msg="Forneça ao menos 4 caracteres!" />
                             <div class="validation"></div>
                         </div>
                         <div class="span4 form-group">
-                            <input type="email" class="form-control" name="email" id="email" placeholder="Email" data-rule="email" data-msg="Please enter a valid email" />
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Email" data-rule="email" data-msg="Forneça um email válido" />
                             <div class="validation"></div>
                         </div>
                         <div class="span4 form-group">
-                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Assunto" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Assunto" data-rule="minlen:4" data-msg="Forneça ao menos 4 caracteres!" />
                             <div class="validation"></div>
                         </div>
                         <div class="span12 margintop10 form-group">
