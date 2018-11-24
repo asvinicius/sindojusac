@@ -90,7 +90,7 @@ class CI_Controller {
 	 */
 	public static function &get_instance()
 	{
-		return self::$instance;
+            return self::$instance;
 	}
         public function isLogged(){
             if ($this->session->userdata('logged') === TRUE){
@@ -99,6 +99,12 @@ class CI_Controller {
             else {
                 return false;
             }
+        }
+        public function getRequest(){
+            $this->load->model('RequestModel');
+            $request = new RequestModel();
+            
+            return $request->listing();
         }
 
 }

@@ -58,6 +58,12 @@ ini_set(“display_errors”, 0 );
                                 <p>Páginas diversas</p>
                             </a>
                         </li>
+                        <li class="<?php if($page['current'] != null){if($page['current']["id"] == 5){echo 'active';}} ?>">
+                            <a href="<?= base_url('humanresources'); ?>" title="Gerenciamento de pessoas">
+                                <i class="ti-settings"></i>
+                                <p>Gerenciamento</p>
+                            </a>
+                        </li>
                         <li class="active-pro">
                             <a href="<?= base_url('login/signout'); ?>" title="Sair">
                                 <i class="ti-power-off"></i>
